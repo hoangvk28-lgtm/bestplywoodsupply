@@ -463,11 +463,10 @@
     ]
   },
   "upholstery-panel-stack": {
-    "width": 1536,
-    "height": 1024,
+    "width": 721,
+    "height": 899,
     "variants": [
-      640,
-      1200
+      640
     ]
   },
   "veneer-grading": {
