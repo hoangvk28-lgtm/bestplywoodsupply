@@ -25,7 +25,7 @@ export default async function MarketPage({ params }: { params: Promise<{ country
   if (!m) notFound();
   const docs = m.documents.map(getDoc).filter(Boolean) as NonNullable<ReturnType<typeof getDoc>>[];
   const article = getArticle(m.article);
-  const focusCats = m.focusProducts.map((s) => getCategory(s) ?? getCategory(getProduct(s)?.parent ?? "")).filter(Boolean);
+  const focusCats = [...new Set(m.focusProducts.map((s) => getCategory(s) ?? getCategory(getProduct(s)?.parent ?? "")).filter(Boolean))];
 
   return (
     <>

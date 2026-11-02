@@ -1,7 +1,7 @@
 import { Img } from "./Img";
 import { Icon } from "./Icon";
 import { TechnicalTable } from "./TechnicalTable";
-import { Breadcrumbs, Button, SectionHeading, StatusBadge } from "./ui";
+import { ArrowLink, Breadcrumbs, Button, SectionHeading, StatusBadge } from "./ui";
 import type { Status } from "@/content/site";
 import type { SpecRow } from "@/content/products";
 import { getDoc } from "@/content/documents";
@@ -24,7 +24,7 @@ export function FilmHero() {
             Phenolic film faced formwork plywood on acacia and eucalyptus hardwood cores, with the KOSMEX logo printed directly on the film surface.
           </p>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">
-            {["Logo-printed film for site identification", "120 · 130 · 145 g/m² film · 180–240 g/m² anti-slip", "Up to 20+ re-uses (Premium, PF glue)", "EN-method laboratory test reports"].map((b) => (
+            {["Logo-printed film for site identification", "120 · 130 · 145 g/m² film", "Up to 20+ re-uses (Premium, PF glue)", "EN-method laboratory test reports"].map((b) => (
               <li key={b} className="flex gap-3 text-[.95rem] text-white/90">
                 <Icon name="check" className="mt-1 h-4 w-4 shrink-0 text-gold" strokeWidth={2.4} />{b}
               </li>
@@ -59,6 +59,7 @@ const grades = [
 const comparison: { attr: string; cells: [Cell, Cell, Cell] }[] = [
   { attr: "Core composition", cells: [D("Acacia / eucalyptus / mix, AB grade, hand-jointed"), D("Acacia / eucalyptus / mix, AB grade, hand-jointed"), D("Acacia / eucalyptus / rubber / mix, 100% A grade, machine-jointed")] },
   { attr: "Core drying", cells: [D("Sun-dried"), D("Machine-dried"), D("Machine-dried")] },
+  { attr: "Sanding core", cells: [D("1 time"), D("2 times"), D("2 times")] },
   { attr: "Film weight", cells: [D("120 g/m², black / brown"), D("130 g/m², black / brown"), D("145 g/m², black / brown")] },
   { attr: "Glue specification", cells: [D("MUF"), D("WBP melamine (MUF)"), D("MUF / PF")] },
   { attr: "Bonding performance", cells: [D("BR-6h boil resistant"), D("BR-12h boil resistant"), D("EN 314-2 Class 2 & 3")] },
@@ -163,11 +164,12 @@ export function AntiSlipVariant() {
     <section className="section-sm bg-ivory-2">
       <div className="wrap grid gap-10 lg:grid-cols-12 lg:items-center">
         <div className="lg:col-span-7">
-          <p className="eyebrow mb-5">Surface variant</p>
-          <h2 className="text-[length:var(--text-h3)]">Anti-slip film (hexagon / rice pattern)</h2>
+          <p className="eyebrow mb-5">Separate product line</p>
+          <h2 className="text-[length:var(--text-h3)]">Anti-Slip Plywood (hexagon / rice pattern)</h2>
           <p className="mt-4 max-w-2xl text-muted">
             A 180–240 g/m² anti-slip film (rice or hexagon pattern) for truck, trailer and container flooring and walkways. Kosmex declares an anti-slip index of R10–R13; the film has two independent test reports.
           </p>
+          <div className="mt-5"><ArrowLink href="/products/film-faced-plywood/anti-slip-plywood/">View Anti-Slip Plywood</ArrowLink></div>
         </div>
         <dl className="grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:col-span-5">
           <div className="bg-white p-5">

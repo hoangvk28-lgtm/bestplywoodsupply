@@ -62,8 +62,6 @@ const REQUIRED: [string, string][] = [
   ["product", "Please select a specific product."],
   ["quantity", "Please enter the required quantity."],
   ["unit", "Please select a unit."],
-  ["port", "Please enter the destination port."],
-  ["requirements", "Please describe your requirements."],
   ["consent", "Please confirm the privacy notice."],
 ];
 
@@ -185,7 +183,7 @@ export function RFQForm() {
           </select>
           {err("country")}
         </Field>
-        <Field id="port" label={<>Destination port{req}</>}><input id="port" name="port" placeholder="e.g. Hamburg, Gdańsk, Valencia" className="field-input" {...aria("port")} />{err("port")}</Field>
+        <Field id="port" label="Destination port"><input id="port" name="port" placeholder="e.g. Hamburg, Gdańsk, Valencia" className="field-input" /></Field>
       </Fieldset>
 
       <Fieldset legend="Product">
@@ -224,6 +222,7 @@ export function RFQForm() {
             <select id="unit" name="unit" className="field-input" defaultValue="m³" {...aria("unit")}>
               <option value="m³">m³</option>
               <option value="Containers">Containers</option>
+              <option value="Sheets">Sheets</option>
             </select>
           </Field>
         </div>
@@ -241,9 +240,8 @@ export function RFQForm() {
             ))}
           </div>
         </fieldset>
-        <Field id="requirements" label={<>Additional requirements{req}</>} wide>
-          <textarea id="requirements" name="requirements" rows={5} placeholder="Application, grade, glue, logo printing, packing, Incoterm, target price basis…" className="field-input" {...aria("requirements")} />
-          {err("requirements")}
+        <Field id="requirements" label="Additional requirements" wide>
+          <textarea id="requirements" name="requirements" rows={5} placeholder="Application, grade, glue, logo printing, packing, Incoterm, target price basis…" className="field-input" />
         </Field>
         <Field id="attachment" label="File attachment (drawing, specification; PDF/JPG/PNG/XLSX, max 8 MB)" wide>
           <input id="attachment" name="attachment" type="file" accept=".pdf,.jpg,.jpeg,.png,.xlsx,.xls,.doc,.docx" className="field-input file:mr-4 file:border-0 file:bg-ivory-2 file:px-3 file:py-1.5 file:font-semibold" {...aria("attachment")} />

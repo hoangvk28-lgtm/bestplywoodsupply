@@ -12,6 +12,7 @@ import { documents } from "@/content/documents";
 import { categories, productHref } from "@/content/products";
 import { pageMeta } from "@/lib/seo";
 
+const ANTI_SLIP = "anti-slip-plywood";
 const pages = qualityPages.filter((q) => q.slug);
 export const dynamicParams = false;
 export const generateStaticParams = () => pages.map((q) => ({ slug: q.slug }));
@@ -88,14 +89,22 @@ function QcProcess() {
 }
 
 function ProductSpecs() {
+  // Anti-Slip Plywood sits under Film Faced in the catalogue but has its own specification block.
+  const specGroups = categories.flatMap((c) => {
+    const standalone = c.children.filter((p) => p.slug === ANTI_SLIP);
+    return [
+      { slug: c.slug, name: c.name, specs: c.specs, links: [{ slug: c.slug, navLabel: "Range overview" }, ...c.children.filter((p) => p.slug !== ANTI_SLIP)] },
+      ...standalone.map((p) => ({ slug: p.slug, name: p.name, specs: p.specs, links: [{ slug: p.slug, navLabel: "Product page" }] })),
+    ];
+  });
   return (
     <section className="section">
       <div className="wrap">
         <div className="mt-10 space-y-4">
-          {categories.map((c, i) => (
+          {specGroups.map((c, i) => (
             <details key={c.slug} open={i === 0} className="group overflow-hidden rounded-2xl border border-line bg-white">
               <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-4 p-6">
-                <span className="font-display text-[1.25rem] font-bold text-forest"><span className="mr-3 text-gold-2">0{c.order}</span>{c.name}</span>
+                <span className="font-display text-[1.25rem] font-bold text-forest"><span className="mr-3 text-gold-2">0{i + 1}</span>{c.name}</span>
                 <span className="text-[.82rem] text-muted">
                   {c.specs.filter((s) => s.status !== "pending").length} documented · {c.specs.filter((s) => s.status === "pending").length} awaiting data
                 </span>
@@ -103,8 +112,8 @@ function ProductSpecs() {
               <div className="border-t border-line p-6">
                 <TechnicalTable rows={c.specs} caption={`${c.name} specification`} legend={false} />
                 <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
-                  {[c, ...c.children].map((p) => (
-                    <ArrowLink key={p.slug} href={productHref(p.slug)}>{"navLabel" in p ? p.navLabel : "Range overview"}</ArrowLink>
+                  {c.links.map((p) => (
+                    <ArrowLink key={p.slug} href={productHref(p.slug)}>{p.navLabel}</ArrowLink>
                   ))}
                 </div>
               </div>
@@ -272,7 +281,7 @@ function MaterialExpertise() {
         <div className="wrap grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading eyebrow="Core construction" title="From log to cross-laminated panel" lede="Plywood gets its strength and stability from alternating grain direction. These are the main machine stages in Kosmex production." />
-            <div className="relative mt-8 aspect-[4/3] overflow-hidden bg-forest"><Img name="veneer-sorting-floor" alt="Veneer sorting and lay-up floor" sizes="(min-width:1024px) 40vw, 100vw" className="absolute inset-0 h-full w-full object-cover" /></div>
+            <div className="relative mt-8 aspect-[4/3] overflow-hidden bg-forest"><Img name="veneer-sorting-workers" alt="Workers sorting veneer sheets by hand at the Kosmex factory" sizes="(min-width:1024px) 40vw, 100vw" className="absolute inset-0 h-full w-full object-cover" /></div>
           </div>
           <ol className="lg:col-span-7 lg:pt-16">
             {machines.map((m, i) => (

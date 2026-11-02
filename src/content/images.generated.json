@@ -187,6 +187,13 @@
       1920
     ]
   },
+  "ffp-medium-grade": {
+    "width": 963,
+    "height": 1005,
+    "variants": [
+      640
+    ]
+  },
   "ffp-panel-stack": {
     "width": 1920,
     "height": 1784,
@@ -324,6 +331,16 @@
       1920
     ]
   },
+  "packing-plywood-stack": {
+    "width": 2560,
+    "height": 1920,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "pallet-labelling": {
     "width": 1536,
     "height": 1024,
@@ -446,12 +463,13 @@
     ]
   },
   "upholstery-panel-stack": {
-    "width": 2400,
-    "height": 1600,
+    "width": 2560,
+    "height": 1920,
     "variants": [
       640,
       1200,
-      1920
+      1920,
+      2560
     ]
   },
   "veneer-grading": {
@@ -505,6 +523,16 @@
   "veneer-sorting-floor": {
     "width": 2560,
     "height": 2198,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "veneer-sorting-workers": {
+    "width": 2560,
+    "height": 1707,
     "variants": [
       640,
       1200,

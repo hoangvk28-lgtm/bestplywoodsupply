@@ -15,7 +15,7 @@ export const qcStages = [
     title: "Core Preparation & Assembly",
     short: "Veneer dried to 8–12% moisture and sorted by thickness and face.",
     checks: ["Veneer moisture controlled within 8–12% to prevent delamination", "Veneers sorted by thickness and surface appearance"],
-    image: "veneer-jointing-line",
+    image: "veneer-sorting-workers",
   },
   {
     n: "03",
@@ -27,8 +27,8 @@ export const qcStages = [
   {
     n: "04",
     title: "Dimensional Inspection",
-    short: "Size tolerance, thickness calibration and flatness after trimming and sanding.",
-    checks: ["Panel size tolerance and thickness calibration checked", "Panels with cracks, overlaps or uneven surfaces rejected"],
+    short: "Size, moisture, surface, core and bending checks after trimming and sanding.",
+    checks: ["Panel size tolerance and thickness calibration checked", "Moisture content checking", "Surface defect checking sheet by sheet", "Core checking sheet by sheet", "Bending strength testing randomly", "Cut into small sheets to test glue bond and core inside", "Panels with cracks, overlaps or uneven surfaces rejected"],
     image: "qc-caliper-ffp",
   },
   {
@@ -42,7 +42,7 @@ export const qcStages = [
     n: "06",
     title: "Final QC & Packaging",
     short: "100% panel inspection, final moisture and bond checks before shipment.",
-    checks: ["100% of panels inspected for surface, labelling and packing condition", "Final moisture and bonding strength tests before shipment"],
+    checks: ["100% of panels inspected for surface, labelling and packing condition", "Final moisture and bonding strength tests before shipment", "Ensure packaging follows PPWR requirements"],
     image: "qc-dimension-check",
   },
 ] as const;

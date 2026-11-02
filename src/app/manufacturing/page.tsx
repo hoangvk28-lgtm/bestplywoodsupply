@@ -13,7 +13,7 @@ export const metadata = pageMeta({
 
 const gallery = [
   ["production-hall", "Production hall with parallel lay-up lines"],
-  ["veneer-sorting-floor", "Veneer sorting and composing tables"],
+  ["veneer-sorting-workers", "Veneer sorting by hand"],
   ["veneer-storage", "Dried veneer staged for production"],
   ["ffp-branded-panels", "Handling KOSMEX-printed film faced panels"],
   ["qc-bending-test", "Bending test on a KOSMEX panel"],

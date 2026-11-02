@@ -54,8 +54,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
           <SectionHeading
             align="split"
             eyebrow={c.flagship ? "Grades" : "In this range"}
-            title={c.flagship ? "Film faced grades" : `${c.name} products`}
-            lede={c.flagship ? "Three grades for different formwork demands. Grade names are provisional." : "Each product has its own specification page."}
+            title={c.flagship ? "Film faced product lines" : `${c.name} products`}
+            lede={c.flagship ? "Three grades for different formwork demands, plus Anti-Slip Plywood for flooring. Grade names are provisional." : "Each product has its own specification page."}
           />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {c.children.map((p) => <ProductCard key={p.slug} p={p} />)}

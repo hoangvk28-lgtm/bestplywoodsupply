@@ -45,7 +45,7 @@ export default function Home() {
           <dl className="reveal-stagger mx-auto mt-16 grid max-w-5xl gap-px overflow-hidden rounded-2xl bg-forest/10 sm:grid-cols-3">
             {[
               ["FSC® Chain of Custody", "BV-COC-220900", "Bureau Veritas certificate"],
-              ["Laboratory tested", "EN 310 · EN 438-2", "Published test reports"],
+              ["Laboratory tested", "EN 310 · EN 314\nEN 438-2", "Published test reports"],
               ["Panel formats", "1220 × 2440 mm\n1250 × 2500 mm\n610 × 2500 mm", "or customised size"],
             ].map(([k, v, s]) => (
               <div key={k} className="bg-sage px-8 py-9 text-center">
