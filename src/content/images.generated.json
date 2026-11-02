@@ -227,11 +227,10 @@
     ]
   },
   "ffp-render-light": {
-    "width": 1639,
-    "height": 960,
+    "width": 960,
+    "height": 847,
     "variants": [
-      640,
-      1200
+      640
     ]
   },
   "ffp-render-stack": {
