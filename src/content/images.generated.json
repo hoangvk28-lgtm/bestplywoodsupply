@@ -211,11 +211,13 @@
     ]
   },
   "ffp-render-closeup": {
-    "width": 1639,
-    "height": 959,
+    "width": 2560,
+    "height": 1284,
     "variants": [
       640,
-      1200
+      1200,
+      1920,
+      2560
     ]
   },
   "ffp-render-green": {
