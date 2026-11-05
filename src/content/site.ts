@@ -3,7 +3,7 @@
  * a Kosmex-issued document (Oct 2026 audit). Items marked `confirm` must be
  * re-checked by Kosmex before launch — see CLIENT-CHECKLIST.md.
  */
-export const SITE_URL = "https://www.kosmexplywood.com"; // confirm: final production domain
+export const SITE_URL = "https://www.bestplywoodsupply.com"; // client-confirmed production domain (2026-11-05)
 
 export const site = {
   brand: "KOSMEX PLYWOOD",
