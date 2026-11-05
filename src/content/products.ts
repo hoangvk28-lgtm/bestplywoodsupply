@@ -36,6 +36,9 @@ export interface Product {
   image: string;
   imageAlt: string;
   imageIsGeneric?: boolean;
+  /** Optional second photo for the Applications section (defaults to image). */
+  appImage?: string;
+  appImageAlt?: string;
   related: string[]; // product or category slugs
   provisional?: string;
 }
@@ -269,8 +272,10 @@ filmFaced.children = [
       { label: "Anti-slip surface (DIN 51130)", value: "Acceptance angle 18.0° — R10 band", status: "verified", source: "QUATEST 3 KT3-01466AXD5" },
       { label: "Abrasion — anti-slip film (EN 438-2)", value: "680 revolutions", status: "verified", source: "T&T Laboratory 11/MCI.AHV/IV/25" },
     ],
-    image: "antislip-panel",
-    imageAlt: "Anti-slip film faced plywood panel with patterned surface",
+    image: "antislip-podium",
+    imageAlt: "KOSMEX anti-slip plywood with hexagon pattern film face, shown on a wooden display stand",
+    appImage: "antislip-edge-tape",
+    appImageAlt: "Anti-slip film faced plywood stack: hexagon wiremesh surface, hardwood core plies and tape measure",
     related: ["premium-grade", "medium-grade", "film-faced-plywood"],
   },
 ];

@@ -1,4 +1,11 @@
 {
+  "antislip-edge-tape": {
+    "width": 1060,
+    "height": 550,
+    "variants": [
+      640
+    ]
+  },
   "antislip-hexagon-closeup": {
     "width": 960,
     "height": 1166,
@@ -14,6 +21,13 @@
       1200,
       1920,
       2560
+    ]
+  },
+  "antislip-podium": {
+    "width": 1178,
+    "height": 1159,
+    "variants": [
+      640
     ]
   },
   "bed-slats-moisture": {
@@ -188,10 +202,12 @@
     ]
   },
   "ffp-medium-grade": {
-    "width": 963,
-    "height": 1005,
+    "width": 1920,
+    "height": 1400,
     "variants": [
-      640
+      640,
+      1200,
+      1920
     ]
   },
   "ffp-panel-stack": {
