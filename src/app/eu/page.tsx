@@ -9,7 +9,7 @@ import { pageMeta } from "@/lib/seo";
 export const metadata = pageMeta({
   title: "EU Markets — Plywood Supply for European Buyers",
   description:
-    "Kosmex Plywood market pages for Poland, Italy, Spain, Belgium, Cyprus, Bulgaria, Germany and Sweden: products, documents and procurement considerations.",
+    "Best Plywood Supply market pages for Poland, Italy, Spain, Belgium, Cyprus, Bulgaria, Germany and Sweden: products, documents and procurement considerations.",
   path: "/eu/",
 });
 

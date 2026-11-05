@@ -65,7 +65,7 @@ export function HeroReel() {
         <div className="grid gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-7">
             <p className="hero-in text-[.8rem] font-semibold uppercase tracking-[.22em] text-white/75" style={{ ["--d" as string]: "0ms" }}>
-              Kosmex Plywood
+              Best Plywood Supply
             </p>
             <h1 className="hero-in serif mt-6 text-[clamp(2rem,1rem+3vw,3.6rem)] font-normal leading-[1] tracking-[-.02em] text-white" style={{ ["--d" as string]: "120ms" }}>
               The leading plywood factory &amp; exporter in Vietnam

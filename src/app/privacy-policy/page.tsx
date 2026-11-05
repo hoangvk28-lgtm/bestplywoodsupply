@@ -2,7 +2,7 @@ import { PageHero } from "@/components/ui";
 import { site } from "@/content/site";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = { ...pageMeta({ title: "Privacy Policy", description: "How Kosmex Plywood processes personal data submitted through this website.", path: "/privacy-policy/" }), robots: { index: false, follow: true } };
+export const metadata = { ...pageMeta({ title: "Privacy Policy", description: "How Best Plywood Supply processes personal data submitted through this website.", path: "/privacy-policy/" }), robots: { index: false, follow: true } };
 
 export default function PrivacyPage() {
   return (

@@ -6,8 +6,8 @@ import { site } from "@/content/site";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta({
-  title: "About Kosmex Plywood",
-  description: "Kosmex Plywood is the plywood brand of KOSMEX COMPANY LIMITED, a Vietnamese manufacturer of film faced, furniture, upholstery and packing plywood.",
+  title: "About Best Plywood Supply",
+  description: "Best Plywood Supply is the export supply site of KOSMEX COMPANY LIMITED (Kosmex Group), a Vietnamese manufacturer of film faced, furniture, upholstery and packing plywood.",
   path: "/about/",
 });
 
@@ -18,13 +18,13 @@ export default function AboutPage() {
         crumbs={[{ name: "About Us", href: "/about/" }]}
         eyebrow="About the brand"
         title="A plywood partner built on product knowledge"
-        lede={`Kosmex Plywood is the plywood brand of ${site.legalName}, Hanoi, Vietnam.`}
+        lede={`Best Plywood Supply is the export supply site of ${site.legalName} (Kosmex Group), Hanoi, Vietnam.`}
       />
       <section className="section">
         <div className="wrap grid gap-12 lg:grid-cols-12 lg:items-center">
           <div className="space-y-5 text-[1.03rem] text-charcoal/85 lg:col-span-6">
             <p>Kosmex manufactures plywood for construction, furniture and industrial packaging. According to company information, Kosmex was established in {site.founded}.</p>
-            <p>Kosmex Plywood brings the export range under one brand. It is led by film faced plywood carrying the KOSMEX logo in the film, and backed by published technical data, laboratory test reports and FSC Chain of Custody certification.</p>
+            <p>Best Plywood Supply brings the export range under one roof. It is led by film faced plywood carrying the KOSMEX logo in the film, and backed by published technical data, laboratory test reports and FSC Chain of Custody certification.</p>
             <p>Our positioning is simple: technical expertise before scale. We publish what we can document, mark what is pending, and work with buyers on a written specification.</p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden bg-forest lg:col-span-6">

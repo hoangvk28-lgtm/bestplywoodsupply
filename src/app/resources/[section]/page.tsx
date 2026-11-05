@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ section: 
   const { section } = await params;
   const s = sections.find((x) => x.slug === section);
   if (!s) return {};
-  return pageMeta({ title: s.slug === "faq" ? "Plywood FAQ" : s.title, description: `${s.text} Kosmex Plywood resources for European plywood buyers.`, path: `/resources/${s.slug}/` });
+  return pageMeta({ title: s.slug === "faq" ? "Plywood FAQ" : s.title, description: `${s.text} Best Plywood Supply resources for European plywood buyers.`, path: `/resources/${s.slug}/` });
 }
 
 export default async function SectionPage({ params }: { params: Promise<{ section: string }> }) {

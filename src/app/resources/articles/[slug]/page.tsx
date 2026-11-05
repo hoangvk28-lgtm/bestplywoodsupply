@@ -29,7 +29,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p className="eyebrow mb-5 mt-10">{sectionTitle(a.section)}</p>
             <h1 className="text-[clamp(2rem,1.5rem+2vw,3.1rem)]">{a.title}</h1>
             <p className="lede mt-5">{a.description}</p>
-            <p className="mt-6 text-[.85rem] text-stone"><time dateTime={a.date}>{fmtDate(a.date)}</time> · {a.readMinutes} min read · Kosmex Plywood</p>
+            <p className="mt-6 text-[.85rem] text-stone"><time dateTime={a.date}>{fmtDate(a.date)}</time> · {a.readMinutes} min read · Best Plywood Supply</p>
           </div>
         </header>
         <div className="wrap max-w-4xl border-t border-line py-14">

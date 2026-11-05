@@ -15,10 +15,10 @@ export const metadata = {
   ...pageMeta({
     title: "Engineered Plywood from Vietnam",
     description:
-      "Kosmex Plywood: branded film faced plywood, furniture, upholstery and packing plywood manufactured in Vietnam. Technical data sheets, test reports and RFQ for European buyers.",
+      "Best Plywood Supply: KOSMEX-branded film faced plywood, furniture, upholstery and packing plywood manufactured in Vietnam. Technical data sheets, test reports and RFQ for European buyers.",
     path: "/",
   }),
-  title: { absolute: "Kosmex Plywood — Leading Plywood Manufacturer & Exporter in Vietnam" },
+  title: { absolute: "Best Plywood Supply — Plywood Manufacturer & Exporter in Vietnam" },
 };
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="reveal mx-auto max-w-3xl text-center">
             <p className="kicker">Who we are</p>
             <h2 className="serif mt-5 text-[clamp(1.9rem,1.3rem+2vw,3rem)] font-normal leading-[1.12]">
-              Kosmex Plywood — the leading plywood factory & exporter in Vietnam
+              Best Plywood Supply — the leading plywood factory & exporter in Vietnam
             </h2>
             <p className="mt-6 text-[1.08rem] leading-relaxed text-muted">
               {site.legalName} produces plywood for construction, furniture and export packaging. Our flagship film faced plywood carries the KOSMEX mark printed into the film, so every sheet on site can be traced back to its specification and documents.

@@ -40,7 +40,7 @@ export function Footer() {
               Engineered plywood, manufactured in Vietnam for European importers, distributors and manufacturers.
             </p>
             <p className="mt-4 max-w-xs text-[.82rem] leading-relaxed text-white/50">
-              Kosmex Plywood is the plywood brand of {site.legalName}, Hanoi, Vietnam.
+              Best Plywood Supply is the export supply site of {site.legalName} (<a href={site.corporateSite} className="underline hover:text-white">Kosmex Group</a>), Hanoi, Vietnam. Panels are sold under the KOSMEX brand.
             </p>
           </div>
 

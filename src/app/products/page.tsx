@@ -8,7 +8,7 @@ import { pageMeta } from "@/lib/seo";
 export const metadata = pageMeta({
   title: "Plywood Products",
   description:
-    "Kosmex Plywood ranges: Film Faced Plywood (flagship), Furniture Plywood, Upholstery Plywood and Packing Plywood. Specifications, documents and RFQ.",
+    "Best Plywood Supply ranges: Film Faced Plywood (flagship), Furniture Plywood, Upholstery Plywood and Packing Plywood. Specifications, documents and RFQ.",
   path: "/products/",
 });
 

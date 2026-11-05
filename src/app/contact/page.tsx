@@ -5,8 +5,8 @@ import { site } from "@/content/site";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta({
-  title: "Contact Kosmex Plywood",
-  description: "Contact the Kosmex Plywood sales team in Hanoi, Vietnam by email, phone or WhatsApp for specifications, documents and quotations.",
+  title: "Contact Best Plywood Supply",
+  description: "Contact the Best Plywood Supply sales team in Hanoi, Vietnam by email, phone or WhatsApp for specifications, documents and quotations.",
   path: "/contact/",
 });
 

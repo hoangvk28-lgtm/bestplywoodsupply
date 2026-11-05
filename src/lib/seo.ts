@@ -21,15 +21,15 @@ export function pageMeta({
     description,
     alternates: { canonical: path },
     openGraph: {
-      title: `${title} | Kosmex Plywood`,
+      title: `${title} | Best Plywood Supply`,
       description,
       url: path,
-      siteName: "Kosmex Plywood",
+      siteName: "Best Plywood Supply",
       type,
       locale: "en_GB",
       images: [{ url: image, width: 1200, height: 630, alt: "KOSMEX film faced plywood print pattern" }],
     },
-    twitter: { card: "summary_large_image", title: `${title} | Kosmex Plywood`, description, images: [image] },
+    twitter: { card: "summary_large_image", title: `${title} | Best Plywood Supply`, description, images: [image] },
   };
 }
 
@@ -50,7 +50,8 @@ export const organizationLd = () => ({
     addressLocality: "Hanoi",
     addressCountry: "VN",
   },
-  sameAs: [site.corporateSite],
+  brand: { "@type": "Brand", name: "KOSMEX" },
+  parentOrganization: { "@type": "Organization", name: "Kosmex Group", url: site.corporateSite },
 });
 
 export const websiteLd = () => ({
@@ -58,7 +59,7 @@ export const websiteLd = () => ({
   "@type": "WebSite",
   "@id": `${SITE_URL}/#website`,
   url: SITE_URL,
-  name: "Kosmex Plywood",
+  name: "Best Plywood Supply",
   inLanguage: "en",
   publisher: { "@id": `${SITE_URL}/#organization` },
 });

@@ -14,9 +14,9 @@ const manrope = Manrope({ subsets: ["latin", "latin-ext"], weight: ["400", "500"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Kosmex Plywood — Film Faced, Furniture & Packing Plywood from Vietnam", template: "%s | Kosmex Plywood" },
+  title: { default: "Best Plywood Supply — Film Faced, Furniture & Packing Plywood from Vietnam", template: "%s | Best Plywood Supply" },
   description: site.description,
-  applicationName: "Kosmex Plywood",
+  applicationName: "Best Plywood Supply",
   formatDetection: { telephone: false },
   icons: { icon: [{ url: "/favicon-kosmex.ico", sizes: "48x48" }, { url: "/kosmex-icon.svg", type: "image/svg+xml" }], shortcut: "/favicon-kosmex.ico", apple: "/apple-touch-icon-kosmex.png" },
   manifest: "/manifest.webmanifest",

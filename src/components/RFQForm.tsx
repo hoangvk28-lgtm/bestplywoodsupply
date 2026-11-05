@@ -30,7 +30,7 @@ async function deliver(fd: FormData) {
     fd.delete("bot-field");
     fd.set("access_key", WEB3FORMS_KEY);
     fd.set("subject", `RFQ — ${fd.get("company") ?? ""} (${fd.get("country") ?? ""})`);
-    fd.set("from_name", "Kosmex Plywood website");
+    fd.set("from_name", "Best Plywood Supply website");
     fd.set("replyto", String(fd.get("email") ?? ""));
     const res = await fetch("https://api.web3forms.com/submit", { method: "POST", body: fd, headers: { Accept: "application/json" } });
     const json = await res.json().catch(() => ({}));

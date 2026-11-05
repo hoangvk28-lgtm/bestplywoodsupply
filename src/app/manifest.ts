@@ -4,8 +4,8 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Kosmex Plywood",
-    short_name: "Kosmex",
+    name: "Best Plywood Supply",
+    short_name: "Best Plywood",
     start_url: "/",
     display: "browser",
     background_color: "#f7f6f2",

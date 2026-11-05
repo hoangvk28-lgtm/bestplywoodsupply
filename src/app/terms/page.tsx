@@ -2,7 +2,7 @@ import { PageHero } from "@/components/ui";
 import { site } from "@/content/site";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = { ...pageMeta({ title: "Terms of Use", description: "Terms of use for the Kosmex Plywood website.", path: "/terms/" }), robots: { index: false, follow: true } };
+export const metadata = { ...pageMeta({ title: "Terms of Use", description: "Terms of use for the Best Plywood Supply website.", path: "/terms/" }), robots: { index: false, follow: true } };
 
 export default function TermsPage() {
   return (

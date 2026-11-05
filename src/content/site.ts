@@ -6,12 +6,12 @@
 export const SITE_URL = "https://www.bestplywoodsupply.com"; // client-confirmed production domain (2026-11-05)
 
 export const site = {
-  brand: "KOSMEX PLYWOOD",
+  brand: "Best Plywood Supply",
   legalName: "KOSMEX COMPANY LIMITED",
   shortLegal: "KOSMEX CO., LTD.",
   tagline: "The leading plywood factory & exporter in Vietnam.",
   description:
-    "Kosmex Plywood manufactures film faced, furniture, upholstery and packing plywood in Vietnam for European importers, distributors and manufacturers.",
+    "Best Plywood Supply (Kosmex Group) manufactures film faced, furniture, upholstery and packing plywood in Vietnam for European importers, distributors and manufacturers.",
   founded: "2010", // per kosmexgroup.com "About"; confirm
   office: {
     label: "Head office",

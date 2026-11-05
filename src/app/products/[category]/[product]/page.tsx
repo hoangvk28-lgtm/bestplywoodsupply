@@ -19,7 +19,7 @@ const load = async (params: Promise<{ category: string; product: string }>) => {
 export async function generateMetadata({ params }: { params: Promise<{ category: string; product: string }> }) {
   const p = await load(params);
   if (!p) return {};
-  return pageMeta({ title: p.name, description: `${p.intro} Specifications, documents and quotation from Kosmex Plywood.`.slice(0, 158), path: productHref(p.slug) });
+  return pageMeta({ title: p.name, description: `${p.intro} Specifications, documents and quotation from Best Plywood Supply.`.slice(0, 158), path: productHref(p.slug) });
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ category: string; product: string }> }) {
