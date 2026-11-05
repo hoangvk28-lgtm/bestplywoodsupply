@@ -51,23 +51,23 @@ const P: Cell = { s: "pending" };
 const D = (v: string): Cell => ({ v, s: "declared" });
 
 const grades = [
-  { slug: "economy-grade", name: "Economy", tds: "Common" },
-  { slug: "medium-grade", name: "Medium", tds: "Medium" },
   { slug: "premium-grade", name: "Premium", tds: "Premium" },
+  { slug: "medium-grade", name: "Medium", tds: "Medium" },
+  { slug: "economy-grade", name: "Economy", tds: "Common" },
 ];
 
 const comparison: { attr: string; cells: [Cell, Cell, Cell] }[] = [
-  { attr: "Core composition", cells: [D("Acacia / eucalyptus / mix, AB grade, hand-jointed"), D("Acacia / eucalyptus / mix, AB grade, hand-jointed"), D("Acacia / eucalyptus / rubber / mix, 100% A grade, machine-jointed")] },
-  { attr: "Core drying", cells: [D("Sun-dried"), D("Machine-dried"), D("Machine-dried")] },
-  { attr: "Sanding core", cells: [D("1 time"), D("2 times"), D("2 times")] },
-  { attr: "Film weight", cells: [D("120 g/m², black / brown"), D("130 g/m², black / brown"), D("145 g/m², black / brown")] },
-  { attr: "Glue specification", cells: [D("MUF"), D("WBP melamine (MUF)"), D("MUF / PF")] },
-  { attr: "Bonding performance", cells: [D("BR-6h boil resistant"), D("BR-12h boil resistant"), D("EN 314-2 Class 2 & 3")] },
-  { attr: "Number of re-uses", cells: [D("6–8 times"), D("10–12 times"), D("12–15 (MUF) · 20+ (PF)")] },
-  { attr: "Bending strength L / W (EN 310)", cells: [D("40 / 30 N/mm²"), D("40 / 30 N/mm²"), { v: "49 / 47 N/mm² · test report", s: "verified" }] },
+  { attr: "Core composition", cells: [D("Acacia / eucalyptus / rubber / mix, 100% A grade, machine-jointed"), D("Acacia / eucalyptus / mix, AB grade, hand-jointed"), D("Acacia / eucalyptus / mix, AB grade, hand-jointed")] },
+  { attr: "Core drying", cells: [D("Machine-dried"), D("Machine-dried"), D("Sun-dried")] },
+  { attr: "Sanding core", cells: [D("2 times"), D("2 times"), D("1 time")] },
+  { attr: "Film weight", cells: [D("145 g/m², black / brown"), D("130 g/m², black / brown"), D("120 g/m², black / brown")] },
+  { attr: "Glue specification", cells: [D("MUF / PF"), D("WBP melamine (MUF)"), D("MUF")] },
+  { attr: "Bonding performance", cells: [D("EN 314-2 Class 2 & 3"), D("BR-12h boil resistant"), D("BR-6h boil resistant")] },
+  { attr: "Number of re-uses", cells: [D("12–15 (MUF) · 20+ (PF)"), D("10–12 times"), D("6–8 times")] },
+  { attr: "Bending strength L / W (EN 310)", cells: [{ v: "49 / 47 N/mm² · test report", s: "verified" }, D("40 / 30 N/mm²"), D("40 / 30 N/mm²")] },
   { attr: "Thickness options", cells: [D("11–21 mm"), D("11–21 mm"), D("11–21 mm")] },
-  { attr: "Recommended application", cells: [D("Short-cycle formwork, foundations"), D("General construction formwork"), D("Repeated-cycle formwork, fences")] },
-  { attr: "Available documentation", cells: [D("TDS"), D("TDS"), { v: "TDS + EN 310 test report", s: "verified" }] },
+  { attr: "Recommended application", cells: [D("Repeated-cycle formwork, fences"), D("General construction formwork"), D("Short-cycle formwork, foundations")] },
+  { attr: "Available documentation", cells: [{ v: "TDS + EN 310 test report", s: "verified" }, D("TDS"), D("TDS")] },
 ];
 
 // Range-wide rows already shown per grade in the comparison table.
