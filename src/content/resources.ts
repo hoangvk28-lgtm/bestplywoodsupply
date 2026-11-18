@@ -13,18 +13,41 @@ export const resourceSections: { slug: ResourceSection | "knowledge-center" | "f
   { slug: "faq", title: "FAQ", text: "Short answers to common buyer questions." },
 ];
 
+/**
+ * Article body block. Strings in `p`, `list`, table cells and `note` accept
+ * light inline markup: [text](/internal/path/) links and **bold**.
+ */
+export interface ArticleBlock {
+  h: string;
+  p?: string[];
+  list?: string[];
+  steps?: string[];
+  table?: { caption: string; head: string[]; rows: string[][] };
+  image?: { name: string; alt: string; caption?: string };
+  note?: string;
+  after?: string[];
+}
+
 export interface Article {
   slug: string;
   section: ResourceSection;
   title: string;
   description: string;
   date: string; // ISO
+  updated?: string; // ISO
   readMinutes: number;
-  body: { h: string; p?: string[]; list?: string[] }[];
+  keyword?: string;
+  takeaways?: string[];
+  body: ArticleBlock[];
+  faq?: { q: string; a: string }[];
+  sources?: { label: string; note?: string }[];
   relatedProducts: string[];
+  cta?: { title: string; text: string };
 }
 
-export const articles: Article[] = [
+import { longformArticles } from "./articles";
+
+const baseArticles: Article[] = [
   {
     slug: "film-faced-plywood-tds-guide",
     section: "technical-guides",
@@ -158,6 +181,8 @@ export const articles: Article[] = [
     ],
   },
 ];
+
+export const articles: Article[] = [...longformArticles, ...baseArticles];
 
 export const faqs: { q: string; a: string }[] = [
   { q: "Where is Kosmex plywood manufactured?", a: "In Vietnam. Kosmex's head office is in Hanoi, and production is in northern Vietnam (Tuyen Quang Province, according to company information)." },
