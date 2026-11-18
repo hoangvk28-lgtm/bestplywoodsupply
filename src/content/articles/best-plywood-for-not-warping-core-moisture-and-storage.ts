@@ -31,6 +31,7 @@ const article: Article = {
     },
     {
       h: "Construction: what a stable panel looks like",
+      image: { name: "core-veneer-layup", alt: "Cross-laminated core veneers being laid up into a balanced plywood panel", caption: "Balanced lay-up: veneers alternate grain direction around the centre ply." },
       p: [
         "A stable panel is symmetrical about its centre line. Plies of the same thickness and similar species sit at the same distance from the centre on both sides, with grain directions alternating. Any imbalance becomes a bending force when moisture changes.",
       ],
@@ -49,7 +50,6 @@ const article: Article = {
       after: [
         "These points come straight from Kosmex production. Kosmex controls veneer moisture within 8–12% before lay-up to prevent delamination and stress, and sorts veneers by thickness and face. For furniture panels, the core is either A grade jointed by composer machine or AB grade jointed by hand, chosen per order. If flatness is critical, specify the machine-jointed A-grade core. See [Material & Core Expertise](/quality/material-core-expertise/) for how cores are built.",
       ],
-      image: { name: "veneer-joint-machine", alt: "Veneer jointing machine in the Kosmex factory", caption: "Machine jointing gives a tighter, more uniform core than hand jointing." },
     },
     {
       h: "Moisture: the biggest single factor",

@@ -148,6 +148,7 @@ const article: Article = {
     },
     {
       h: "Buying formwork plywood in volume (B2B)",
+      image: { name: "ffp-black-stack-press", alt: "Stacks of black film faced plywood at the Kosmex press line", caption: "Film faced panels coming off the press line in Vietnam." },
       p: [
         "If you are an importer, distributor or contractor buying by the container, the selection process is more than picking a grade. These are the points to fix before ordering from any manufacturer, including Kosmex.",
       ],

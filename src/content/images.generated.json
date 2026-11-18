@@ -47,6 +47,16 @@
       2560
     ]
   },
+  "cold-press-loading": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "container-loading": {
     "width": 1536,
     "height": 1024,
@@ -62,6 +72,26 @@
       640,
       1200,
       1920
+    ]
+  },
+  "core-putty-filling": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "core-veneer-layup": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "eucalyptus-core-stack": {
@@ -144,6 +174,16 @@
       1200
     ]
   },
+  "factory-gate": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "factory-layup-hall": {
     "width": 960,
     "height": 542,
@@ -158,6 +198,16 @@
       640,
       1200,
       1920
+    ]
+  },
+  "ffp-black-stack-press": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "ffp-black-stack": {
@@ -201,6 +251,16 @@
       1920
     ]
   },
+  "ffp-logo-stack-press": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "ffp-medium-grade": {
     "width": 1920,
     "height": 1400,
@@ -224,6 +284,16 @@
     "height": 2163,
     "variants": [
       640
+    ]
+  },
+  "ffp-press-output": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "ffp-render-closeup": {
@@ -294,6 +364,16 @@
       1920
     ]
   },
+  "film-faced-press-loading": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "furniture-panels": {
     "width": 2048,
     "height": 1252,
@@ -301,6 +381,16 @@
       640,
       1200,
       1920
+    ]
+  },
+  "glue-spreader-line": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "hero-ffp-collage": {
@@ -320,6 +410,16 @@
       640,
       1200,
       1920
+    ]
+  },
+  "hot-press-unloading": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "okoume-face-panel": {
@@ -364,6 +464,16 @@
     "variants": [
       640,
       1200
+    ]
+  },
+  "panel-sanding-machine": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "pine-furniture-plywood": {
@@ -484,6 +594,26 @@
     "height": 899,
     "variants": [
       640
+    ]
+  },
+  "veneer-core-patching": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "veneer-drying-floor": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "veneer-grading": {

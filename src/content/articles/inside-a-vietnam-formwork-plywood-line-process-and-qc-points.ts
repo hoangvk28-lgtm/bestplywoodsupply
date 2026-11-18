@@ -18,6 +18,7 @@ const article: Article = {
   body: [
     {
       h: "Why the production line matters to a formwork buyer",
+      image: { name: "factory-gate", alt: "Entrance of the Kosmex plywood factory in northern Vietnam", caption: "The Kosmex factory in northern Vietnam." },
       p: [
         "Two film faced panels can look identical in a photo and behave completely differently on site. One survives a dozen pours; the other starts to swell at the edges after three. The difference is rarely the film itself. It comes from decisions made on the production line: how wet the veneer was when it was glued, how tightly the core was jointed, how evenly glue was spread and how long the panel stayed in the press.",
         "This guide follows a formwork panel through the [Kosmex](/about/) factory in northern Vietnam, the line that supplies Best Plywood Supply's [film faced plywood](/products/film-faced-plywood/). At each step we describe what happens, the QC checkpoint Kosmex applies, and what you, as a buyer, can reasonably ask to see. The stage names follow the [Kosmex QC process](/quality/qc-process/).",
@@ -34,7 +35,7 @@ const article: Article = {
     },
     {
       h: "Stage 2: Drying and veneer sorting",
-      image: { name: "veneer-sorting-workers", alt: "Workers sorting dried veneer sheets by thickness and surface quality", caption: "Dried veneer is sorted by thickness and surface appearance before lay-up." },
+      image: { name: "veneer-drying-floor", alt: "Dried hardwood veneer bundles stacked on the factory floor at Kosmex", caption: "Dried veneer stacked by lot before sorting and lay-up." },
       p: [
         "Freshly peeled veneer is far too wet to glue. It is dried on a multi-layer roller dryer, or sun-dried for the entry grade, and then sorted by thickness and surface appearance.",
         "**QC checkpoint:** veneer moisture is controlled within 8–12% to prevent delamination. Veneers are graded so that the best sheets go to the cross-bands and faces.",
@@ -44,7 +45,7 @@ const article: Article = {
     },
     {
       h: "Stage 3: Core jointing and composing",
-      image: { name: "veneer-jointing-line", alt: "Veneer jointing line joining core veneer strips into full sheets", caption: "Core veneers are jointed into full sheets. Premium cores are machine-jointed." },
+      image: { name: "veneer-core-patching", alt: "Workers laying and patching core veneer on composing tables", caption: "Core veneers are laid, jointed and patched by hand on AB-grade cores; Premium cores are machine-jointed." },
       p: [
         "Core veneer rarely comes off the lathe in full panel widths. Strips are jointed into full sheets, then glue is spread and the sheets are composed into a cross-laminated stack.",
         "**QC checkpoint:** glue uniformity and spread are checked before pressing. The adhesive is mixed to a formula for each plywood type (MR, WBP or melamine).",
@@ -54,7 +55,7 @@ const article: Article = {
     },
     {
       h: "Stage 4: Cold press, hot press and core sanding",
-      image: { name: "factory-press-hall", alt: "Hot press line in the Kosmex plywood factory", caption: "Pressing: temperature, pressure and time are controlled for each formula." },
+      image: { name: "cold-press-loading", alt: "Glued veneer packs being loaded into the cold press", caption: "Glued packs go into the cold press before hot pressing." },
       p: [
         "The composed stack goes first into a cold press, which pre-forms it and lets it be handled, and then into a hot press, where heat cures the glue under pressure. The core is then calibrated by sanding before the film is applied.",
         "**QC checkpoint:** cold and hot press temperature, pressure and time are controlled. The core is sanded once (Common) or twice (Medium, Premium and Anti-slip), per the TDS. The Common grade lists two hot presses.",
@@ -64,7 +65,7 @@ const article: Article = {
     },
     {
       h: "Stage 5: Film laminating and edge sealing",
-      image: { name: "ffp-branded-panels", alt: "KOSMEX logo-printed film faced plywood panels after laminating", caption: "Film faced panels with the KOSMEX logo printed in the film." },
+      image: { name: "film-faced-press-loading", alt: "Brown KOSMEX logo film faced panel loaded into a multi-daylight hot press", caption: "Film lamination: the phenolic film is pressed onto both faces under heat and pressure." },
       p: [
         "The calibrated core is overlaid on both faces with phenolic resin film, brown or black, and pressed again with controlled heat and pressure. The film can carry the KOSMEX logo printed into the surface. Panels are then trimmed to size and the edges sealed with waterproof paint.",
         "**QC checkpoint:** surface smoothness and film quality are inspected; panels with cracks, overlaps or uneven surfaces are rejected.",
@@ -101,6 +102,7 @@ const article: Article = {
     },
     {
       h: "How the grades are built differently",
+      image: { name: "panel-sanding-machine", alt: "Core panels passing through a wide-belt sanding machine", caption: "Core sanding: once for Economy, twice for Medium and Anti-slip." },
       p: ["Every grade passes through the same stages, but the settings differ. This table summarises the Kosmex TDS (declared values)."],
       table: {
         caption: "Kosmex film faced plywood grades: production differences (declared, Kosmex TDS 2026)",

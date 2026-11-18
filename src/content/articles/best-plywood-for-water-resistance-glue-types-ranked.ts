@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why glue matters more than the wood",
+      image: { name: "glue-spreader-line", alt: "Core veneer passing through a glue spreader at the Kosmex factory", caption: "Glue spreading: the adhesive system, not the wood, sets water resistance." },
       p: [
         "Plywood is layers of veneer held together by adhesive. When water reaches a panel, the wood swells and shrinks, and the glue line has to keep the veneers bonded through that movement. If the adhesive softens or hydrolyses, the veneers separate: this is delamination, and once it starts the panel is finished.",
         "That is why the best plywood for water resistance is defined first by its glue system. A dense hardwood core bonded with an interior glue will still delaminate outdoors. A lighter core bonded with phenolic resin can survive repeated wetting. Face overlay (such as phenolic film) and edge sealing then decide how much water reaches the glue line in the first place.",
@@ -59,11 +60,11 @@ const article: Article = {
     },
     {
       h: "PF / WBP: the most water resistant",
+      image: { name: "hot-press-unloading", alt: "Panels unloaded from a multi-daylight hot press", caption: "Hot pressing cures the glue line; MUF and PF need controlled heat and time." },
       p: [
         "Phenol-formaldehyde resin cures to a dark, rigid, highly water-resistant bond. It resists boiling water, weathering and repeated wetting better than any other common plywood glue. It is the standard for exterior plywood, high-cycle formwork and transport flooring.",
         "WBP originally meant “weather and boil proof”. Today it is used loosely, and some suppliers call MUF panels “WBP”. If you need the highest durability, ask specifically for phenolic glue and the test behind it. Kosmex offers PF glue on the Premium grade, with a declared 20+ re-uses for formwork compared with 12–15 for Premium with MUF glue.",
       ],
-      image: { name: "core-layers-edge", alt: "Edge view of plywood showing core veneer layers and glue lines", caption: "The glue lines between veneers decide how a panel behaves when wet." },
     },
     {
       h: "Reading the standards: EN 314-2 and EN 636",

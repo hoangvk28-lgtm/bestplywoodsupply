@@ -46,6 +46,7 @@ const article: Article = {
     },
     {
       h: "Criterion 1: the glue line",
+      image: { name: "glue-spreader-line", alt: "Core veneer passing through a glue spreader", caption: "The glue line decides exterior durability." },
       p: [
         "Glue is the first thing to check, because a failed glue line cannot be repaired. Three adhesive families dominate plywood production:",
       ],
