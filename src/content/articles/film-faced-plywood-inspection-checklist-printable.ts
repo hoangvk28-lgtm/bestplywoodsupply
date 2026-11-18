@@ -45,6 +45,7 @@ const article: Article = {
     },
     {
       h: "2. Packing and marking",
+      image: { name: "packing-stretch-wrap", alt: "Stack of black KOSMEX film faced plywood being stretch-wrapped", caption: "Wrapping and packing are checked against the agreed packing specification." },
       table: {
         caption: "Packing and marking checks",
         head: ["Check", "Method", "Example acceptance criterion", "Result"],
@@ -59,6 +60,7 @@ const article: Article = {
     },
     {
       h: "3. Dimensions and tolerances (EN 315)",
+      image: { name: "qc-tape-measure-ffp", alt: "Inspector measuring the length of a film faced plywood stack with a tape measure", caption: "Length and width: ±1 mm per EN 315 in the Kosmex TDS." },
       p: [
         "Measure length and width at both ends and in the middle, and thickness at several points along the edges, at least 25 mm in from the edge. Use a calibrated tape and caliper or micrometer. Record actual values, not just pass or fail.",
       ],
@@ -74,10 +76,10 @@ const article: Article = {
           ["Flatness", "Sheet laid flat; measure bow", "No visible warping beyond agreed limit", R],
         ],
       },
-      image: { name: "qc-thickness-caliper", alt: "Inspector measuring plywood thickness with a caliper", caption: "Thickness is measured at several points per sampled sheet." },
     },
     {
       h: "4. Moisture content (EN 322)",
+      image: { name: "qc-moisture-meter-kosmex", alt: "Moisture meter reading on a KOSMEX logo film faced plywood face", caption: "Spot moisture readings on the panel face; the TDS declares below 12%." },
       p: [
         "A pin or capacitive moisture meter gives a fast reading on site. EN 322 is an oven-dry method, so meter readings are an indication; ask for oven-dry results in the QC report if moisture is disputed. Take readings on several sheets from different pallets, including the bottom of the stack.",
       ],
@@ -90,10 +92,10 @@ const article: Article = {
           ["Storage condition", "Visual", "Stored under cover, off the ground", R],
         ],
       },
-      image: { name: "qc-moisture-meter", alt: "Moisture meter reading on a plywood panel", caption: "Meter readings are an indication; EN 322 is the reference method." },
     },
     {
       h: "5. Film surface",
+      image: { name: "ffp-kosmex-black-face", alt: "Black film faced plywood face with the KOSMEX logo print", caption: "Check film coverage, bubbles, scratches and print legibility sheet by sheet." },
       table: {
         caption: "Film surface checks",
         head: ["Check", "Method", "Example acceptance criterion", "Result"],

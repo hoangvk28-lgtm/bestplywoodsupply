@@ -117,6 +117,7 @@ const article: Article = {
     },
     {
       h: "Ordering EUDR-ready plywood from Vietnam",
+      image: { name: "kosmex-office-building", alt: "Kosmex office building at the factory site in Vietnam", caption: "Kosmex factory office, northern Vietnam." },
       p: [
         "Kosmex supplies four ranges to European importers, distributors and manufacturers, all in scope of the EUDR as HS 4412 products:",
       ],

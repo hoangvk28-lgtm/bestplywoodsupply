@@ -28,6 +28,7 @@ const article: Article = {
     },
     {
       h: "What counts as packaging on a plywood shipment",
+      image: { name: "packing-carton-strapped", alt: "Film faced plywood pallet packed in carton sheets with steel straps at the Kosmex factory", caption: "A Kosmex export pallet: plywood skids, carton sheets and steel straps — the three materials covered by the CTT test reports." },
       p: [
         "PPWR defines packaging by function: anything used to contain, protect, handle, deliver or present goods. On a typical export load of film faced or packing plywood, that includes:",
       ],
@@ -41,7 +42,6 @@ const article: Article = {
         "The plywood panels themselves are the product, not packaging. Plywood sold as panels to a distributor, contractor or furniture maker falls under product rules, such as the Construction Products Regulation for CE-marked panels, formaldehyde limits and the EUDR. PPWR applies to the materials around the panels.",
         "Kosmex packs film faced plywood with **carton sheets and steel straps**, as stated in its [Technical Data Sheet](/quality/technical-data-sheets/). Bundles sit on plywood skids for forklift handling. These three materials are the ones Kosmex had tested against PPWR.",
       ],
-      image: { name: "export-packaging", alt: "Plywood bundles packed with carton sheets and steel straps for export", caption: "Export bundles: carton sheets, steel straps and plywood skids are each a separate packaging material under PPWR." },
     },
     {
       h: "The PPWR requirements that apply from August 2026",
@@ -80,6 +80,7 @@ const article: Article = {
     },
     {
       h: "Worked example: Kosmex PPWR test reports",
+      image: { name: "packing-steel-strapping", alt: "Workers tensioning steel straps around a cartoned plywood pallet", caption: "Steel strapping. The tested strap sample measured 17 mg/kg lead, below the 100 mg/kg limit." },
       p: [
         "In July 2026 Kosmex sent its three main export packaging materials to **CTT – Consumer Testing Technology Co., Ltd., Hanoi** for heavy-metal testing against Regulation (EU) 2025/40. All three reports are dated 13 July 2026 and are published on the [test reports page](/quality/test-reports/).",
       ],
@@ -134,6 +135,7 @@ const article: Article = {
     },
     {
       h: "Buying plywood with PPWR evidence from Kosmex",
+      image: { name: "packing-carton-sheets", alt: "Workers fitting carton sheets around a stack of film faced plywood", caption: "Carton sheets fitted around film faced plywood before strapping." },
       p: [
         "Best Plywood Supply is the export brand of Kosmex Co., Ltd., a plywood manufacturer in northern Vietnam. For EU buyers, the packaging evidence comes with the panel documentation in one pack:",
       ],

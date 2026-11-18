@@ -115,6 +115,7 @@ const article: Article = {
     },
     {
       h: "A buyer's specification checklist",
+      image: { name: "qc-depth-gauge-ffp", alt: "Inspector checking a film faced plywood stack with a gauge", caption: "Dimensional checks during final QC at the Kosmex factory." },
       steps: [
         "State the use: wall, slab, column, visible concrete, fencing or flooring, and the number of pours you plan.",
         "Choose the grade: film weight, core grade and glue system. For 20+ cycles, specify PF glue.",

@@ -68,6 +68,7 @@ const article: Article = {
     },
     {
       h: "Storage and transport: where most warping happens",
+      image: { name: "furniture-plywood-flat-stack", alt: "Flat stack of sanded furniture plywood on a level base", caption: "Store panels flat on a level, fully supported base." },
       p: [
         "A panel that leaves the press flat can still arrive bowed. Long sea transport, damp warehouses and poor stacking all add stress. Good storage costs almost nothing and prevents most claims.",
       ],
@@ -79,7 +80,6 @@ const article: Article = {
         "**Avoid sun and heaters.** Direct sun or heating on one face dries it faster than the other.",
         "**Keep the packing intact until use.** Kosmex packs film faced plywood with carton sheets and steel straps, which keep the stack compressed and protected in transit.",
       ],
-      image: { name: "warehouse-storage", alt: "Plywood stacks stored flat on pallets in the Kosmex warehouse", caption: "Flat, supported and covered: the basic storage rule." },
     },
     {
       h: "Which plywood types resist warping best",
@@ -104,6 +104,7 @@ const article: Article = {
     },
     {
       h: "Thickness and tolerance",
+      image: { name: "furniture-plywood-sanding", alt: "Furniture plywood passing through a wide-belt calibrating sander", caption: "Calibration sanding keeps thickness consistent across the panel." },
       p: [
         "Thicker panels have more plies and more stiffness, so they resist bending forces better. Thin panels (under about 9 mm) bow more easily and need more care in storage and finishing.",
         "Thickness consistency also matters. A panel with uneven thickness has uneven stiffness and can twist after machining. Kosmex declares a thickness tolerance of ±0.3 mm (4.6–12 mm) and ±0.5 mm (13–25 mm) for EV plywood, and ±0.5 mm for film faced plywood (EN 315). Specify tolerance as well as nominal thickness.",

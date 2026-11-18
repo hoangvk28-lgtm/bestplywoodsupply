@@ -251,6 +251,16 @@
       1920
     ]
   },
+  "ffp-kosmex-black-face": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "ffp-logo-stack-press": {
     "width": 2560,
     "height": 1707,
@@ -383,6 +393,26 @@
       1920
     ]
   },
+  "furniture-plywood-flat-stack": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "furniture-plywood-sanding": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "glue-spreader-line": {
     "width": 2560,
     "height": 1707,
@@ -422,12 +452,42 @@
       2560
     ]
   },
+  "kosmex-office-building": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "okoume-face-panel": {
     "width": 1280,
     "height": 960,
     "variants": [
       640,
       1200
+    ]
+  },
+  "packing-carton-sheets": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-carton-strapped": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "packing-panel-stack": {
@@ -451,6 +511,26 @@
   "packing-plywood-stack": {
     "width": 2560,
     "height": 1920,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-steel-strapping": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-stretch-wrap": {
+    "width": 2560,
+    "height": 1707,
     "variants": [
       640,
       1200,
@@ -535,6 +615,16 @@
       1920
     ]
   },
+  "qc-depth-gauge-ffp": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "qc-dial-gauge": {
     "width": 1726,
     "height": 1742,
@@ -550,11 +640,31 @@
       640
     ]
   },
+  "qc-moisture-meter-kosmex": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "qc-moisture-meter": {
     "width": 963,
     "height": 1280,
     "variants": [
       640
+    ]
+  },
+  "qc-tape-measure-ffp": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "qc-thickness-caliper": {
