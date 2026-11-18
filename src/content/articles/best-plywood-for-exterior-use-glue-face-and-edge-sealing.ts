@@ -19,12 +19,12 @@ const article: Article = {
   body: [
     {
       h: "What makes plywood suitable for exterior use?",
+      image: { name: "timber-frame-sheathing", alt: "House under construction with wood panel sheathing exposed to weather", caption: "Exterior panels face rain, sun and humidity cycles before and after they are covered." },
       p: [
         "Outdoors, plywood faces rain, standing water, UV light, freeze-thaw cycles and wide swings in humidity. Every one of those attacks the panel in a different place: the glue line, the face veneer, or the end grain on the edges.",
         "So the best plywood for exterior use is not one species or one brand. It is a construction in which three layers of defence work together: a **glue line** that does not fail when wet, a **face** that sheds water and resists weathering, and **edges** that are sealed against water uptake. Weakness in any one of the three shortens service life, however good the other two are.",
         "This guide compares those three elements, explains the European standards that define them, and shows how to specify exterior plywood for volume purchasing.",
       ],
-      image: { name: "ffp-premium-edge", alt: "Sealed edge of KOSMEX premium film faced plywood", caption: "Film on both faces and painted edges: the three lines of defence on an exterior panel." },
     },
     {
       h: "The European standards: EN 636-3 and EN 314-2 Class 3",
@@ -80,6 +80,7 @@ const article: Article = {
     },
     {
       h: "Criterion 3: edge sealing",
+      image: { name: "water-drops-wood-edge", alt: "Water drops hanging from the edge of a wooden board", caption: "Water enters plywood fastest through unsealed edges and cut ends." },
       p: [
         "Plywood takes up water fastest through its edges, where the end grain of half the veneers is exposed. A panel with a perfect face and an exterior bond will still swell, delaminate at the edges or grow mould if water can wick into the core.",
         "That makes edge sealing the cheapest exterior upgrade available. Factory edges should be sealed with a waterproof paint or sealer, and every cut edge, notch and drilled hole made on site must be resealed the same day.",
@@ -93,6 +94,7 @@ const article: Article = {
     },
     {
       h: "Comparing plywood options for outdoor use",
+      image: { name: "roof-panel-workers", alt: "Workers fixing wood panels on a roof structure", caption: "Outdoor use ranges from short exposure during construction to permanent weathering." },
       p: ["With the three criteria set, here is how common panel types compare for exterior use. Characteristics are typical for each category and vary by manufacturer."],
       table: {
         caption: "Best type of plywood for outdoor use: comparison by criteria",
@@ -111,6 +113,7 @@ const article: Article = {
     },
     {
       h: "Kosmex panels for exterior use",
+      image: { name: "ffp-premium-edge", alt: "Edge of Premium KOSMEX film faced plywood with sealed edges", caption: "Premium grade: phenolic film on both faces and waterproof edge paint." },
       p: [
         "Best Plywood Supply sells the Kosmex film faced range, manufactured in Vietnam. For exterior applications the relevant grades and their **declared** properties (Kosmex TDS, 2026) are:",
       ],
@@ -127,10 +130,10 @@ const article: Article = {
       after: [
         "All grades have edges sealed with waterproof paint, moisture content below 12% (EN 322) and EN 315 tolerances. For long exterior exposure, choose **Premium with PF glue**, the grade Kosmex links to 20+ formwork re-uses. Bending strength of an 18 mm, 13-ply sample was independently tested to EN 310 (49 / 47.3 MPa, [T&T Laboratory 06/MCI.AHK/IV/25](/certificates/test-report-bending-film-faced-18mm/)); the result refers to the tested sample only. A bond-class test report is not currently published, so ask the sales team for the evidence behind the Class 3 declaration before relying on it.",
       ],
-      image: { name: "ffp-black-stack", alt: "Stack of black film faced plywood with sealed edges" },
     },
     {
       h: "Buying exterior plywood in volume (B2B)",
+      image: { name: "ffp-press-output", alt: "Film faced plywood stacks at the Kosmex hot press", caption: "Film faced panels coming off the press at the Kosmex factory." },
       p: ["For importers, distributors and contractors, these points turn an exterior claim into a specification you can enforce."],
       steps: [
         "**Name the service class and bond class**: EN 636-3 / EN 314-2 Class 3, plus glue type (PF where long exposure is expected).",

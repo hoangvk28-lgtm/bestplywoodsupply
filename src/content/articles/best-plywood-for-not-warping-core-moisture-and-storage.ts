@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why plywood warps",
+      image: { name: "plywood-layers-macro", alt: "Close-up of layered wood sheets", caption: "Warping starts when layers take up or lose moisture unevenly." },
       p: [
         "Plywood is more stable than solid wood because its veneers are cross-laminated: each layer restrains the movement of the next. But it is still wood. When one side of a panel gains or loses moisture faster than the other, or when the layers are not balanced, internal stresses pull the panel into a bow, cup or twist.",
         "There are three root causes, and the best plywood for not warping is the one that controls all three:",
@@ -53,6 +54,7 @@ const article: Article = {
     },
     {
       h: "Moisture: the biggest single factor",
+      image: { name: "carpentry-workshop", alt: "Carpentry workshop with wood stock and machines", caption: "Panels should reach the workshop's humidity before cutting." },
       p: [
         "Wood moves with moisture. A panel delivered at one moisture content and used in a room at another will gain or lose water until it reaches equilibrium with the air. If it does that unevenly — one face to a warm, dry room and the other against a cold wall — it bows.",
         "Kosmex declares a moisture content of 8–12% for its furniture plywood range and below 12% for film faced plywood (EN 322 method). That range suits most heated European interiors after a short acclimatisation period. Typical equilibrium moisture in heated indoor spaces is lower in winter and higher in summer, so allow panels to settle in the space where they will be machined.",
@@ -68,6 +70,7 @@ const article: Article = {
     },
     {
       h: "Storage and transport: where most warping happens",
+      image: { name: "furniture-plywood-flat-stack", alt: "Flat stack of sanded furniture plywood on a level base", caption: "Store panels flat on a level, fully supported base." },
       p: [
         "A panel that leaves the press flat can still arrive bowed. Long sea transport, damp warehouses and poor stacking all add stress. Good storage costs almost nothing and prevents most claims.",
       ],
@@ -79,10 +82,10 @@ const article: Article = {
         "**Avoid sun and heaters.** Direct sun or heating on one face dries it faster than the other.",
         "**Keep the packing intact until use.** Kosmex packs film faced plywood with carton sheets and steel straps, which keep the stack compressed and protected in transit.",
       ],
-      image: { name: "warehouse-storage", alt: "Plywood stacks stored flat on pallets in the Kosmex warehouse", caption: "Flat, supported and covered: the basic storage rule." },
     },
     {
       h: "Which plywood types resist warping best",
+      image: { name: "plywood-warehouse-racks", alt: "Plywood sheets stored in warehouse racks", caption: "Balanced construction and correct storage together keep panels flat." },
       p: [
         "No species is “warp-proof”, but some constructions are more forgiving than others. Here is a practical comparison for common uses.",
       ],
@@ -104,6 +107,7 @@ const article: Article = {
     },
     {
       h: "Thickness and tolerance",
+      image: { name: "furniture-plywood-sanding", alt: "Furniture plywood passing through a wide-belt calibrating sander", caption: "Calibration sanding keeps thickness consistent across the panel." },
       p: [
         "Thicker panels have more plies and more stiffness, so they resist bending forces better. Thin panels (under about 9 mm) bow more easily and need more care in storage and finishing.",
         "Thickness consistency also matters. A panel with uneven thickness has uneven stiffness and can twist after machining. Kosmex declares a thickness tolerance of ±0.3 mm (4.6–12 mm) and ±0.5 mm (13–25 mm) for EV plywood, and ±0.5 mm for film faced plywood (EN 315). Specify tolerance as well as nominal thickness.",
@@ -111,6 +115,7 @@ const article: Article = {
     },
     {
       h: "Finishing and machining tips",
+      image: { name: "saw-cutting-board", alt: "Cutting a wooden board on a table saw", caption: "Remove material evenly from both faces to keep the panel balanced." },
       list: [
         "**Finish both faces equally.** Laminate, veneer or lacquer one face only and the panel will cup. Use a balancing layer on the back.",
         "**Seal edges after cutting.** Edges absorb moisture much faster than faces.",

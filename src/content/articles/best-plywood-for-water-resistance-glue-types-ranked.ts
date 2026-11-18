@@ -46,6 +46,7 @@ const article: Article = {
     },
     {
       h: "UF / MR: interior only",
+      image: { name: "interior-furniture", alt: "Interior furniture in a dry living room", caption: "Dry interiors: UF/MR bonded panels are made for this." },
       p: [
         "Urea-formaldehyde is cheap, light in colour and easy to process, and it gives low formaldehyde emission when well formulated. It is the standard glue for interior furniture plywood. Its weakness is water: the UF bond breaks down in hot or prolonged wetting.",
         "MR (moisture resistant) usually means a UF-based glue meant for dry interior conditions with some humidity. It corresponds broadly to EN 314-2 bonding Class 1 or EN 636-1 (dry conditions). Kosmex furniture and upholstery panels use MR or melamine glue by default, which is the right choice for indoor products. For example, an independent EN 717-1 chamber test of a 9 mm, 5-ply UF-bonded Kosmex sample measured 0.022 mg/m³ formaldehyde emission ([report 005/MC/II/26](/certificates/test-report-formaldehyde/), tested sample only).",
@@ -53,6 +54,7 @@ const article: Article = {
     },
     {
       h: "MUF / melamine: the formwork workhorse",
+      image: { name: "concrete-slab-pour", alt: "Worker pouring concrete onto a slab", caption: "Formwork is wetted on every pour, which is why formwork glues are MUF or PF." },
       p: [
         "Adding melamine to urea resin improves the bond's resistance to humidity and hot water. MUF is the most common glue in Asian formwork plywood because it balances cost and performance. How water resistant it is depends on the melamine share, so two “melamine” panels can behave very differently.",
         "This is where boil tests help. Kosmex declares a **BR-6h** (boil resistant, 6 hours) bond for the [Economy grade](/products/film-faced-plywood/economy-grade/) and **BR-12h** for the [Medium grade](/products/film-faced-plywood/medium-grade/), both MUF-bonded. A longer boil without delamination indicates a more durable glue line. The [Premium grade](/products/film-faced-plywood/premium-grade/) with MUF glue is declared to EN 314-2 Class 2 & 3.",
@@ -91,6 +93,7 @@ const article: Article = {
     },
     {
       h: "Beyond glue: overlay and edges",
+      image: { name: "water-drops-wood-edge", alt: "Water drops on the edge of a wooden board", caption: "Edges and faces decide how fast water reaches the glue line." },
       p: ["Glue is the foundation, but three other features decide how much water reaches it:"],
       list: [
         "**Face overlay.** Phenolic film seals the faces and gives a water-resistant casting surface. Heavier film (for example 145 g/m² on Kosmex Premium vs 120 g/m² on Economy) lasts longer before wearing through.",
@@ -104,6 +107,7 @@ const article: Article = {
     },
     {
       h: "Best waterproof plywood for kitchens: an honest answer",
+      image: { name: "kitchen-interior", alt: "Modern kitchen with wooden worktop and cabinets", caption: "In kitchens the risk is splashes and leaks around sinks, not constant wetting." },
       p: [
         "Many people search for the best waterproof plywood for kitchen cabinets. In most kitchens, cabinet carcasses are not wetted; they face humidity, steam and the occasional spill. A good interior or melamine-bonded panel with a sealed or laminated surface is normally enough. Phenolic exterior plywood is rarely needed and its darker glue line may not suit visible edges.",
         "The real risk is water at unsealed edges and cut-outs: around the sink, under the dishwasher and at worktop joints. Seal every cut edge and hole, use edge banding, and choose a moisture-resistant glue for sink base units. Also check formaldehyde emission: for interior furniture, Kosmex declares E0.5 for its [furniture plywood](/products/furniture-plywood/) range.",

@@ -47,6 +47,30 @@
       2560
     ]
   },
+  "cardboard-recycling": {
+    "width": 1253,
+    "height": 1280,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "carpentry-workshop": {
+    "width": 1280,
+    "height": 848,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "checklist-form": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "cold-press-loading": {
     "width": 2560,
     "height": 1707,
@@ -57,9 +81,73 @@
       2560
     ]
   },
+  "concrete-finish-room": {
+    "width": 1280,
+    "height": 788,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "concrete-pump-site": {
+    "width": 1280,
+    "height": 886,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "concrete-slab-pour": {
+    "width": 1280,
+    "height": 854,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "container-loading": {
     "width": 1536,
     "height": 1024,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "container-ship-sea": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "container-stack": {
+    "width": 1280,
+    "height": 788,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "container-terminal-cranes": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "container-truck-port": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "contract-calculator": {
+    "width": 1280,
+    "height": 851,
     "variants": [
       640,
       1200
@@ -92,6 +180,14 @@
       1200,
       1920,
       2560
+    ]
+  },
+  "eu-building-site-formwork": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
     ]
   },
   "eucalyptus-core-stack": {
@@ -139,6 +235,14 @@
       640,
       1200,
       1920
+    ]
+  },
+  "eucalyptus-plantation": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      640,
+      1200
     ]
   },
   "ev-plywood-edge": {
@@ -249,6 +353,16 @@
       640,
       1200,
       1920
+    ]
+  },
+  "ffp-kosmex-black-face": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "ffp-logo-stack-press": {
@@ -374,6 +488,46 @@
       2560
     ]
   },
+  "forest-aerial-road": {
+    "width": 1280,
+    "height": 719,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "formwork-panel-workers": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "formwork-site-aerial": {
+    "width": 1280,
+    "height": 854,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "formwork-slab-props": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "formwork-wall-panels": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "furniture-panels": {
     "width": 2048,
     "height": 1252,
@@ -381,6 +535,26 @@
       640,
       1200,
       1920
+    ]
+  },
+  "furniture-plywood-flat-stack": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "furniture-plywood-sanding": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "glue-spreader-line": {
@@ -422,12 +596,66 @@
       2560
     ]
   },
+  "interior-furniture": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "kitchen-interior": {
+    "width": 1280,
+    "height": 848,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "kosmex-office-building": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "log-stack": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "okoume-face-panel": {
     "width": 1280,
     "height": 960,
     "variants": [
       640,
       1200
+    ]
+  },
+  "packing-carton-sheets": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-carton-strapped": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "packing-panel-stack": {
@@ -451,6 +679,26 @@
   "packing-plywood-stack": {
     "width": 2560,
     "height": 1920,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-steel-strapping": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
+  "packing-stretch-wrap": {
+    "width": 2560,
+    "height": 1707,
     "variants": [
       640,
       1200,
@@ -494,6 +742,30 @@
       2560
     ]
   },
+  "plantation-forest": {
+    "width": 1280,
+    "height": 887,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "plywood-layers-macro": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "plywood-warehouse-racks": {
+    "width": 1280,
+    "height": 851,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "poplar-panel-inspection": {
     "width": 1920,
     "height": 2560,
@@ -535,6 +807,16 @@
       1920
     ]
   },
+  "qc-depth-gauge-ffp": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "qc-dial-gauge": {
     "width": 1726,
     "height": 1742,
@@ -550,11 +832,31 @@
       640
     ]
   },
+  "qc-moisture-meter-kosmex": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
+    ]
+  },
   "qc-moisture-meter": {
     "width": 963,
     "height": 1280,
     "variants": [
       640
+    ]
+  },
+  "qc-tape-measure-ffp": {
+    "width": 2560,
+    "height": 1707,
+    "variants": [
+      640,
+      1200,
+      1920,
+      2560
     ]
   },
   "qc-thickness-caliper": {
@@ -579,6 +881,38 @@
       640
     ]
   },
+  "roof-panel-workers": {
+    "width": 1280,
+    "height": 800,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "saw-cutting-board": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "signing-documents": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "site-engineers-plans": {
+    "width": 1280,
+    "height": 771,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "styrax-plywood-stack": {
     "width": 2560,
     "height": 1920,
@@ -587,6 +921,14 @@
       1200,
       1920,
       2560
+    ]
+  },
+  "timber-frame-sheathing": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
     ]
   },
   "upholstery-panel-stack": {
@@ -694,9 +1036,41 @@
       2560
     ]
   },
+  "wall-formwork-workers": {
+    "width": 1280,
+    "height": 858,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "warehouse-aisle": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      640,
+      1200
+    ]
+  },
   "warehouse-storage": {
     "width": 1536,
     "height": 1024,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "water-drops-wood-edge": {
+    "width": 1280,
+    "height": 683,
+    "variants": [
+      640,
+      1200
+    ]
+  },
+  "wooden-pallets": {
+    "width": 1280,
+    "height": 830,
     "variants": [
       640,
       1200

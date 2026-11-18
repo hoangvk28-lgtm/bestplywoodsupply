@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why PPWR compliance matters for plywood imports",
+      image: { name: "warehouse-aisle", alt: "Warehouse aisle with packed goods on racks", caption: "PPWR applies to the packaging that arrives with every shipment." },
       p: [
         "When a European importer buys a container of plywood, two products cross the border: the panels and the packaging around them. Most buyers already have processes for the panels, such as specifications, bond class, emission class and EUDR due diligence. From 12 August 2026 the packaging needs the same attention. **PPWR compliance for plywood** shipments is now part of normal supplier qualification.",
         "Regulation (EU) 2025/40 on packaging and packaging waste was published in the Official Journal on 22 January 2025. It entered into force on 11 February 2025 and replaces Directive 94/62/EC. Its rules apply in phases. The first general obligations took effect on 12 August 2026, and later dates cover labelling, recyclability grading and reuse targets.",
@@ -28,6 +29,7 @@ const article: Article = {
     },
     {
       h: "What counts as packaging on a plywood shipment",
+      image: { name: "packing-carton-strapped", alt: "Film faced plywood pallet packed in carton sheets with steel straps at the Kosmex factory", caption: "A Kosmex export pallet: plywood skids, carton sheets and steel straps — the three materials covered by the CTT test reports." },
       p: [
         "PPWR defines packaging by function: anything used to contain, protect, handle, deliver or present goods. On a typical export load of film faced or packing plywood, that includes:",
       ],
@@ -41,10 +43,10 @@ const article: Article = {
         "The plywood panels themselves are the product, not packaging. Plywood sold as panels to a distributor, contractor or furniture maker falls under product rules, such as the Construction Products Regulation for CE-marked panels, formaldehyde limits and the EUDR. PPWR applies to the materials around the panels.",
         "Kosmex packs film faced plywood with **carton sheets and steel straps**, as stated in its [Technical Data Sheet](/quality/technical-data-sheets/). Bundles sit on plywood skids for forklift handling. These three materials are the ones Kosmex had tested against PPWR.",
       ],
-      image: { name: "export-packaging", alt: "Plywood bundles packed with carton sheets and steel straps for export", caption: "Export bundles: carton sheets, steel straps and plywood skids are each a separate packaging material under PPWR." },
     },
     {
       h: "The PPWR requirements that apply from August 2026",
+      image: { name: "cardboard-recycling", alt: "Stack of used cardboard ready for recycling", caption: "PPWR targets packaging waste: recyclability, substances and documentation." },
       p: [
         "Not every PPWR article applies to transport packaging on day one. For an importer of plywood, the relevant requirements fall into four groups:",
       ],
@@ -80,6 +82,7 @@ const article: Article = {
     },
     {
       h: "Worked example: Kosmex PPWR test reports",
+      image: { name: "packing-steel-strapping", alt: "Workers tensioning steel straps around a cartoned plywood pallet", caption: "Steel strapping. The tested strap sample measured 17 mg/kg lead, below the 100 mg/kg limit." },
       p: [
         "In July 2026 Kosmex sent its three main export packaging materials to **CTT – Consumer Testing Technology Co., Ltd., Hanoi** for heavy-metal testing against Regulation (EU) 2025/40. All three reports are dated 13 July 2026 and are published on the [test reports page](/quality/test-reports/).",
       ],
@@ -114,6 +117,7 @@ const article: Article = {
     },
     {
       h: "Wood skids, ISPM 15 and reuse: points to clarify",
+      image: { name: "wooden-pallets", alt: "Stack of wooden pallets", caption: "Solid-wood pallets need ISPM 15; plywood skids are exempt as processed wood." },
       p: [
         "**ISPM 15.** Plywood is a processed wood material, so it is generally exempt from ISPM 15 heat treatment and marking. Skids made from plywood therefore usually need no ISPM 15 stamp. Skids or bearers made from solid sawn wood do. Confirm the current phytosanitary rules at the destination; this is separate from PPWR.",
         "**Reuse targets.** Article 29 sets reuse targets for transport packaging from 1 January 2030, including a general 40% target that covers pallets, plus 100% requirements for transport within the same company or within the same Member State. Delegated Decision (EU) 2026/429 exempts pallet wrappings and straps from those 100% requirements, but not from the general target. Trade press has also reported exemptions for wooden pallets used in international trade. We found no adopted act confirming a general pallet exemption, so treat such claims with caution and check the Commission's latest FAQ.",
@@ -134,6 +138,7 @@ const article: Article = {
     },
     {
       h: "Buying plywood with PPWR evidence from Kosmex",
+      image: { name: "packing-carton-sheets", alt: "Workers fitting carton sheets around a stack of film faced plywood", caption: "Carton sheets fitted around film faced plywood before strapping." },
       p: [
         "Best Plywood Supply is the export brand of Kosmex Co., Ltd., a plywood manufacturer in northern Vietnam. For EU buyers, the packaging evidence comes with the panel documentation in one pack:",
       ],

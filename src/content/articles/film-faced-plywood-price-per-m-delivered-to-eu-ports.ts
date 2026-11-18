@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why there is no single \"Europe price\"",
+      image: { name: "container-ship-sea", alt: "Container ship at sea", caption: "Freight from Vietnam to North European ports is one of the biggest moving parts of landed cost." },
       p: [
         "Buyers searching for a film faced plywood price in Europe usually find one of two things: a retail price per sheet from a local merchant, or an FOB price per m³ from an Asian factory. Neither is the number you need. What a contractor or distributor pays is the **delivered cost per m³ at their port or yard**, and that depends on grade, thickness, Incoterm, freight market, duty status, exchange rate and how much paperwork the shipment needs.",
         "This guide shows how to build that number yourself, line by line, so you can compare offers from Vietnam, other origins and EU stockists on equal terms. It uses example inputs, not quotes. For a current price on [Kosmex film faced plywood](/products/film-faced-plywood/), [request a quote](/request-a-quote/).",
@@ -26,6 +27,7 @@ const article: Article = {
     },
     {
       h: "Step 1: Fix the Incoterm",
+      image: { name: "container-terminal-cranes", alt: "Container terminal with ship-to-shore cranes", caption: "The Incoterm fixes where the seller's costs stop and yours start." },
       p: ["Most Vietnamese plywood is quoted from Haiphong port (northern Vietnam, close to Kosmex production). Make sure every offer uses the same term, or adjust them before comparing."],
       table: {
         caption: "Common Incoterms for plywood shipments to the EU",
@@ -41,6 +43,7 @@ const article: Article = {
     },
     {
       h: "Step 2: Convert sheets to m³ and containers",
+      image: { name: "container-stack", alt: "Stacked shipping containers at a port", caption: "Container fill sets freight cost per m³." },
       p: ["Plywood is priced per m³ but used per sheet. Check every conversion. Indicative values:"],
       table: {
         caption: "Indicative sheet volume and sheets per m³",
@@ -56,10 +59,10 @@ const article: Article = {
       after: [
         "A 40' high-cube container of film faced plywood typically carries roughly **20–24 m³**, depending on thickness, density and the payload limit. Treat this as indicative: dense eucalyptus cores (declared 650 kg/m³ by Kosmex) reach the weight limit sooner than acacia cores (550 kg/m³). Ask your supplier for the exact pallet count and gross weight per container before you divide freight by volume.",
       ],
-      image: { name: "container-loading", alt: "Pallets of plywood being loaded into a shipping container at the Kosmex factory", caption: "Container loading: pallet count and gross weight decide freight cost per m³." },
     },
     {
       h: "Step 3: Build the landed cost",
+      image: { name: "container-truck-port", alt: "Truck collecting a container at a port terminal", caption: "Port handling and inland haulage are part of the delivered price." },
       p: ["Use the template below. Letters are placeholders: put in your own quotes. All per-container costs are divided by the m³ loaded (V)."],
       table: {
         caption: "Landed cost template for film faced plywood, per m³",
@@ -83,6 +86,7 @@ const article: Article = {
     },
     {
       h: "Worked example (example inputs, not a quote)",
+      image: { name: "contract-calculator", alt: "Contract papers with a calculator and pen", caption: "Build the landed cost line by line before comparing offers." },
       p: [
         "To show the mechanics only, assume: FOB price **P** per m³, freight per 40HC **F**, loaded volume **22 m³**, insurance rate **0.2%**, duty rate **d** from TARIC, destination costs (THC, brokerage, haulage) **K** per container, and compliance cost **c** per m³.",
       ],
@@ -113,6 +117,7 @@ const article: Article = {
     },
     {
       h: "What moves the FOB price",
+      image: { name: "container-loading", alt: "Packed plywood pallets loaded into a container at the factory", caption: "Loading at the factory: packing and container fill are part of the FOB price." },
       list: [
         "**Grade**: film weight (120, 130 or 145 g/m² in the Kosmex range), core grade and jointing, and drying method.",
         "**Glue**: PF costs more than MUF but gives the most re-uses (Kosmex declares 20+ for Premium PF).",
@@ -143,6 +148,7 @@ const article: Article = {
     },
     {
       h: "How to request a comparable quote",
+      image: { name: "signing-documents", alt: "Business people reviewing a document", caption: "A complete RFQ makes quotes comparable." },
       steps: [
         "Grade, glue and film colour (and logo print if wanted).",
         "Thickness, size and tolerances.",
