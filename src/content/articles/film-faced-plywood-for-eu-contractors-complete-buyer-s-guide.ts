@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why the European market buys film faced plywood differently",
+      image: { name: "eu-building-site-formwork", alt: "Building site in Europe with formwork and cranes", caption: "EU sites buy against EN standards, CE documentation and sourcing rules, not just price." },
       p: [
         "Film faced plywood in Europe is used by contractors, formwork rental fleets and distributors who often run tight cycle plans and audited sites. That changes what a good purchase looks like. A panel that is cheap per sheet but swells at the edges after four pours, or arrives without the papers your main contractor asks for, costs more than it saved.",
         "European buyers therefore tend to specify three things together: **performance** (standards and test methods), **documentation** (DoP, test reports, emission class) and **sourcing** (EUDR due diligence and, where needed, FSC claims). This guide walks through each, using the published data for [Kosmex film faced plywood](/products/film-faced-plywood/) as a worked example.",
@@ -26,6 +27,7 @@ const article: Article = {
     },
     {
       h: "The standards map: which EN standard answers which question",
+      image: { name: "site-engineers-plans", alt: "Site engineers reviewing drawings on a construction site", caption: "Specifications on EU projects reference EN standards line by line." },
       p: [
         "Plywood standards are easier to use once you see that each one answers one question. A supplier's data sheet should cite the method behind each number. If it does not, ask.",
       ],
@@ -55,6 +57,7 @@ const article: Article = {
     },
     {
       h: "Bond class and glue: the decision that sets panel life",
+      image: { name: "wall-formwork-workers", alt: "Workers assembling wall formwork", caption: "Repeated wetting on site is what the bond class has to survive." },
       p: [
         "The glue line decides how a panel behaves after repeated wetting, more than the film does. Two systems dominate imported formwork plywood:",
       ],
@@ -130,6 +133,7 @@ const article: Article = {
     },
     {
       h: "Comparing offers: cost per pour, not price per sheet",
+      image: { name: "concrete-pump-site", alt: "Concrete pump pouring on a large building site", caption: "The cost that matters is per pour, across the whole project." },
       p: [
         "Two quotes per m³ can hide very different costs on site. Divide the delivered panel cost by the realistic number of pours, then add the cost of stripping, cleaning and replacing damaged panels. A Premium PF panel that survives 20+ pours often beats an Economy panel at 6–8 pours on repetitive building frames, while Economy may win on footings and one-off pours.",
         "For landed cost to Hamburg, Rotterdam or Antwerp, see our guide to [film faced plywood price per m³ delivered to EU ports](/resources/articles/film-faced-plywood-price-per-m-delivered-to-eu-ports/). For country-specific notes, see our market pages for [Germany](/eu/germany/), [Poland](/eu/poland/) and [Belgium](/eu/belgium/).",

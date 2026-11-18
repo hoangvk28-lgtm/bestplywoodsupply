@@ -20,6 +20,7 @@ const article: Article = {
   body: [
     {
       h: "How to use this checklist",
+      image: { name: "checklist-form", alt: "Hand filling in an inspection checklist form", caption: "Fill one sheet per lot and keep it with the shipment documents." },
       p: [
         "A film faced plywood inspection is only as good as the specification behind it. Before anyone opens a pallet, the buyer and the supplier should agree in writing on grade, thickness, size, film weight and colour, glue system, bond class, moisture limit, edge sealing, packing and marking. The checklist below turns those agreements into checks you can tick off at the factory or at the loading point.",
         "Each table lists the check, how to perform it, an example acceptance criterion and a result column. The example criteria come from the Kosmex [film faced plywood](/products/film-faced-plywood/) Technical Data Sheet (2026). Replace them with the values in your own purchase order where they differ.",

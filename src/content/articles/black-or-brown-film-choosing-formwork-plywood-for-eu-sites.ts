@@ -45,6 +45,7 @@ const article: Article = {
     },
     {
       h: "What actually decides performance and reuse cost",
+      image: { name: "formwork-panel-workers", alt: "Workers positioning a formwork panel on site", caption: "On site, performance comes from film weight, core, glue and edge care, not colour." },
       p: [
         "Formwork plywood fails in predictable ways: the film wears through, water enters at edges and screw holes, the core delaminates or the panel loses stiffness. Four construction choices control how fast that happens.",
       ],
@@ -65,6 +66,7 @@ const article: Article = {
     },
     {
       h: "Kosmex grades: same colours, different construction",
+      image: { name: "ffp-branded-panels", alt: "KOSMEX logo-printed film faced plywood panels", caption: "Every Kosmex grade is offered in black or brown film." },
       p: [
         "The Kosmex Technical Data Sheet declares the construction of each film faced grade. All four are available in black or brown film. The differences below come from film, core and glue, not colour.",
       ],
@@ -81,10 +83,10 @@ const article: Article = {
       after: [
         "These values are manufacturer declarations. The Premium grade's bending values are supported by an independent EN 310 test of an 18 mm, 13-ply sample (T&T Laboratory, report 06/MCI.AHK/IV/25); see the [bending test report](/certificates/test-report-bending-film-faced-18mm/). Re-use counts depend on handling, release agent and the pour, so treat them as typical ranges.",
       ],
-      image: { name: "ffp-black-stack", alt: "Stack of black film faced plywood panels in the Kosmex warehouse", caption: "Black film faced plywood. The same grades are supplied in brown film." },
     },
     {
       h: "Compare offers by cost per pour, not by colour",
+      image: { name: "formwork-site-aerial", alt: "Aerial view of a construction site with formwork", caption: "Cost per pour across the project is the fair comparison between offers." },
       p: [
         "The fair way to compare formwork panels is cost per pour: what each use of a panel really costs once you include how many times it can be used. A cheaper panel that lasts half as many pours is not cheaper.",
       ],
@@ -103,6 +105,7 @@ const article: Article = {
     },
     {
       h: "How to specify film colour in an EU order",
+      image: { name: "ffp-kosmex-black-face", alt: "Black film faced plywood face with KOSMEX logo print", caption: "Black film with logo print; state colour and print on the order." },
       p: [
         "Keep colour and performance on separate lines of the purchase specification. This avoids a common problem: a buyer specifies “brown film faced plywood” and expects a certain quality, while the supplier reads only a colour.",
       ],
@@ -120,6 +123,7 @@ const article: Article = {
     },
     {
       h: "Practical tips for EU sites",
+      image: { name: "concrete-finish-room", alt: "Smooth cast concrete walls with tie holes", caption: "Concrete finish depends on film condition and release agent, not film colour." },
       list: [
         "**Don't mix colours by accident.** If your yard runs one colour, keep reorders consistent so crews can sort panels quickly.",
         "**Use colour for your own systems.** Some contractors use one colour per project or per grade to stop Premium panels ending up on foundation pours.",
@@ -127,7 +131,6 @@ const article: Article = {
         "**Store panels flat and covered.** UV and standing water age both colours.",
         "**Check the film, not the shade.** At incoming inspection, look for film coverage, bubbles and edge sealing.",
       ],
-      image: { name: "ffp-branded-panels", alt: "KOSMEX logo-printed film faced plywood panels", caption: "Logo print can be specified in the film. Choose the colour on which your mark reads best." },
     },
     {
       h: "Buying in volume from Best Plywood Supply",

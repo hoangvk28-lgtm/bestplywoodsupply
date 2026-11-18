@@ -28,6 +28,7 @@ const article: Article = {
     },
     {
       h: "Five criteria for choosing concrete form plywood",
+      image: { name: "formwork-wall-panels", alt: "Wall formwork panels set up on a building site", caption: "Wall formwork on site: the casting face, stiffness and re-use count all come from the panel." },
       p: ["Before comparing products, fix the criteria. These are the five that decide how a formwork panel performs on site and what it costs you over its life."],
       steps: [
         "**Casting face.** The face sets the concrete finish and how many times the panel can be stripped. Resin film weight (g/m²) is the main variable: heavier film gives a thicker, harder-wearing surface.",
@@ -118,6 +119,7 @@ const article: Article = {
     },
     {
       h: "Which grade is best for which concrete form?",
+      image: { name: "formwork-slab-props", alt: "Slab formwork deck supported on steel props", caption: "Slab decks: the panel spans between beams, so stiffness and thickness tolerance matter." },
       p: ["Match the grade to the number of planned pours and the finish you need. The cheapest sheet is rarely the cheapest formwork."],
       table: {
         caption: "Matching film faced grade to formwork application",
@@ -137,6 +139,7 @@ const article: Article = {
     },
     {
       h: "Getting the most pours from formwork plywood",
+      image: { name: "concrete-slab-pour", alt: "Worker pouring and levelling a concrete slab", caption: "Every pour, strip and clean cycle wears the film and edges; handling decides the final re-use count." },
       p: ["Site practice decides whether a panel reaches its declared re-use count. These habits matter more than any small difference between suppliers."],
       list: [
         "Apply a suitable release agent before every pour and avoid scraping the film with metal tools.",

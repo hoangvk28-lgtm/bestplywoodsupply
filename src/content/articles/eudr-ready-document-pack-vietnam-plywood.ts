@@ -29,6 +29,7 @@ const article: Article = {
     },
     {
       h: "EUDR in 2026: dates, scope and roles for plywood",
+      image: { name: "plantation-forest", alt: "Plantation forest on a hillside", caption: "EUDR ties each wood product to the plots where the trees were harvested." },
       table: {
         caption: "EUDR key points for plywood importers",
         head: ["Topic", "Position as of November 2026", "What it means for plywood"],
@@ -46,6 +47,7 @@ const article: Article = {
     },
     {
       h: "What 'low risk' Vietnam does and does not change",
+      image: { name: "eucalyptus-plantation", alt: "Rows of eucalyptus trees in a plantation", caption: "Plantation eucalyptus and acacia are the main plywood species in northern Vietnam." },
       p: [
         "Vietnam was benchmarked as **low risk** in the Commission's 2025 country classification. Commentators link this to Vietnam's work under the EU–Vietnam Voluntary Partnership Agreement on forest law enforcement (VPA/FLEGT) and its Timber Legality Assurance System (VNTLAS).",
         "Low risk allows **simplified due diligence**. The operator does not have to complete the full risk assessment and risk mitigation steps, and competent authorities apply a lower check rate. It does **not** remove the duty to **collect the information**: product description, quantity, country of production, geolocation of all plots, and evidence that the wood is deforestation-free and legal. If the operator has information that points to a risk, for example mixed origin, simplified due diligence is no longer enough.",
@@ -54,6 +56,7 @@ const article: Article = {
     },
     {
       h: "The EUDR plywood document pack: what to request",
+      image: { name: "forest-aerial-road", alt: "Aerial view of a forest with a road", caption: "Geolocation of harvest plots is the new core of the document pack." },
       p: ["Ask your supplier for a pack built around the information the due diligence statement needs. A complete pack for one shipment covers:"],
       table: {
         caption: "Contents of an EUDR document pack for plywood",
@@ -106,6 +109,7 @@ const article: Article = {
     },
     {
       h: "Common gaps in EUDR plywood documents",
+      image: { name: "log-stack", alt: "Stack of cut logs", caption: "Gaps usually appear where logs from several plots are mixed." },
       list: [
         "**Core species missing.** Faces are declared, but mixed hardwood cores are not broken down by species.",
         "**Country of production assumed.** Imported veneer or core material is not separated from domestic plantations.",

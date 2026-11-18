@@ -19,6 +19,7 @@ const article: Article = {
   body: [
     {
       h: "Why PPWR compliance matters for plywood imports",
+      image: { name: "warehouse-aisle", alt: "Warehouse aisle with packed goods on racks", caption: "PPWR applies to the packaging that arrives with every shipment." },
       p: [
         "When a European importer buys a container of plywood, two products cross the border: the panels and the packaging around them. Most buyers already have processes for the panels, such as specifications, bond class, emission class and EUDR due diligence. From 12 August 2026 the packaging needs the same attention. **PPWR compliance for plywood** shipments is now part of normal supplier qualification.",
         "Regulation (EU) 2025/40 on packaging and packaging waste was published in the Official Journal on 22 January 2025. It entered into force on 11 February 2025 and replaces Directive 94/62/EC. Its rules apply in phases. The first general obligations took effect on 12 August 2026, and later dates cover labelling, recyclability grading and reuse targets.",
@@ -45,6 +46,7 @@ const article: Article = {
     },
     {
       h: "The PPWR requirements that apply from August 2026",
+      image: { name: "cardboard-recycling", alt: "Stack of used cardboard ready for recycling", caption: "PPWR targets packaging waste: recyclability, substances and documentation." },
       p: [
         "Not every PPWR article applies to transport packaging on day one. For an importer of plywood, the relevant requirements fall into four groups:",
       ],
@@ -115,6 +117,7 @@ const article: Article = {
     },
     {
       h: "Wood skids, ISPM 15 and reuse: points to clarify",
+      image: { name: "wooden-pallets", alt: "Stack of wooden pallets", caption: "Solid-wood pallets need ISPM 15; plywood skids are exempt as processed wood." },
       p: [
         "**ISPM 15.** Plywood is a processed wood material, so it is generally exempt from ISPM 15 heat treatment and marking. Skids made from plywood therefore usually need no ISPM 15 stamp. Skids or bearers made from solid sawn wood do. Confirm the current phytosanitary rules at the destination; this is separate from PPWR.",
         "**Reuse targets.** Article 29 sets reuse targets for transport packaging from 1 January 2030, including a general 40% target that covers pallets, plus 100% requirements for transport within the same company or within the same Member State. Delegated Decision (EU) 2026/429 exempts pallet wrappings and straps from those 100% requirements, but not from the general target. Trade press has also reported exemptions for wooden pallets used in international trade. We found no adopted act confirming a general pallet exemption, so treat such claims with caution and check the Commission's latest FAQ.",
