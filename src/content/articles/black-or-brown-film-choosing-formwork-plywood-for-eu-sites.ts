@@ -28,7 +28,6 @@ const article: Article = {
     },
     {
       h: "Why European buyers still ask for one colour",
-      image: { name: "ffp-logo-stack-press", alt: "Stack of brown KOSMEX logo film faced plywood fresh from the press", caption: "Brown film with the KOSMEX logo print. Black film is built the same way." },
       p: [
         "If colour does not change performance, why do so many tenders and distributors specify one? Because colour carries habits, expectations and practical signals. None of these are wrong. They are just not quality criteria.",
       ],

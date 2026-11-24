@@ -18,7 +18,6 @@ const article: Article = {
   body: [
     {
       h: "Why the production line matters to a formwork buyer",
-      image: { name: "factory-gate", alt: "Entrance of the Kosmex plywood factory in northern Vietnam", caption: "The Kosmex factory in northern Vietnam." },
       p: [
         "Two film faced panels can look identical in a photo and behave completely differently on site. One survives a dozen pours; the other starts to swell at the edges after three. The difference is rarely the film itself. It comes from decisions made on the production line: how wet the veneer was when it was glued, how tightly the core was jointed, how evenly glue was spread and how long the panel stayed in the press.",
         "This guide follows a formwork panel through the [Kosmex](/about/) factory in northern Vietnam, the line that supplies Best Plywood Supply's [film faced plywood](/products/film-faced-plywood/). At each step we describe what happens, the QC checkpoint Kosmex applies, and what you, as a buyer, can reasonably ask to see. The stage names follow the [Kosmex QC process](/quality/qc-process/).",
@@ -65,7 +64,6 @@ const article: Article = {
     },
     {
       h: "Stage 5: Film laminating and edge sealing",
-      image: { name: "film-faced-press-loading", alt: "Brown KOSMEX logo film faced panel loaded into a multi-daylight hot press", caption: "Film lamination: the phenolic film is pressed onto both faces under heat and pressure." },
       p: [
         "The calibrated core is overlaid on both faces with phenolic resin film, brown or black, and pressed again with controlled heat and pressure. The film can carry the KOSMEX logo printed into the surface. Panels are then trimmed to size and the edges sealed with waterproof paint.",
         "**QC checkpoint:** surface smoothness and film quality are inspected; panels with cracks, overlaps or uneven surfaces are rejected.",

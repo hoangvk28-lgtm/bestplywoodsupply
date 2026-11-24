@@ -278,16 +278,6 @@
       1200
     ]
   },
-  "factory-gate": {
-    "width": 2560,
-    "height": 1707,
-    "variants": [
-      640,
-      1200,
-      1920,
-      2560
-    ]
-  },
   "factory-layup-hall": {
     "width": 960,
     "height": 542,
@@ -356,16 +346,6 @@
     ]
   },
   "ffp-kosmex-black-face": {
-    "width": 2560,
-    "height": 1707,
-    "variants": [
-      640,
-      1200,
-      1920,
-      2560
-    ]
-  },
-  "ffp-logo-stack-press": {
     "width": 2560,
     "height": 1707,
     "variants": [
@@ -476,16 +456,6 @@
       640,
       1200,
       1920
-    ]
-  },
-  "film-faced-press-loading": {
-    "width": 2560,
-    "height": 1707,
-    "variants": [
-      640,
-      1200,
-      1920,
-      2560
     ]
   },
   "forest-aerial-road": {
@@ -610,16 +580,6 @@
     "variants": [
       640,
       1200
-    ]
-  },
-  "kosmex-office-building": {
-    "width": 2560,
-    "height": 1707,
-    "variants": [
-      640,
-      1200,
-      1920,
-      2560
     ]
   },
   "log-stack": {

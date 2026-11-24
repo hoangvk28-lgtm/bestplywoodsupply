@@ -19,7 +19,6 @@ const article: Article = {
   body: [
     {
       h: "Why EUDR plywood documents now decide supplier choice",
-      image: { name: "factory-gate", alt: "Entrance of the Kosmex plywood factory in Vietnam", caption: "The Kosmex factory in northern Vietnam." },
       p: [
         "For EU importers of plywood, 30 December 2026 changes supplier qualification. From that date, an operator placing plywood on the EU market must be able to show that the wood was **deforestation-free**, **legally produced** under the laws of the country of production, and covered by a **due diligence statement**. These conditions cannot be met without the right **EUDR plywood documents** from the supplier.",
         "The EUDR replaces the EU Timber Regulation (EUTR). It goes further than the EUTR because it asks for the **geolocation of the plots where the wood was harvested**, not only for a legality check. For plywood that means following veneer back to the plantations or forests it came from, across every species in the panel.",
@@ -121,7 +120,6 @@ const article: Article = {
     },
     {
       h: "Ordering EUDR-ready plywood from Vietnam",
-      image: { name: "kosmex-office-building", alt: "Kosmex office building at the factory site in Vietnam", caption: "Kosmex factory office, northern Vietnam." },
       p: [
         "Kosmex supplies four ranges to European importers, distributors and manufacturers, all in scope of the EUDR as HS 4412 products:",
       ],
